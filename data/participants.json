@@ -1,4 +1,14 @@
-[  
+[
+  {
+    "name": "Krishay Nair",
+    "imageurl": "image/Krishay.jpg",
+    "about": "Hello, I'm a web developer and a 3rd year computer science student",
+    "college": "Rajiv Gandhi Institute of Technology",
+    "facebook":"https://www.facebook.com/krishay.nair.3/",
+    "github": "https://github.com/KrishayNair",
+    "twitter": "https://twitter.com/NairKrishay",
+    "referral": "none"
+  },
   {
        "name" : "Kushal",
        "imageurl" : "https://avatars.githubusercontent.com/kushal7201",
