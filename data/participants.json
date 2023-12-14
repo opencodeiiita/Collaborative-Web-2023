@@ -1,5 +1,15 @@
 [
     {
+      "name": "Shaurya Jain",
+      "imageurl": "images/Shauryajain (2).jpg",
+      "about": "Hello, I'm a Frontend Web Developer. I have experience in using technologies like React.js , Next.js",
+      "college": "IIIT Allahabad",
+      "facebook": "url",
+      "github": "https://github.com/ShauryaJain03",
+      "twitter": "url",
+      "referral": "Who referred you?"
+    },
+    {
         "name": "Yuvraj Singh Kanojia",
         "imageurl": "https://i.pinimg.com/736x/00/dd/44/00dd440af1919a8533cc461c1691889b.jpg",
         "about": "Student",
