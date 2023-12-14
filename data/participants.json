@@ -1,4 +1,12 @@
 [
+    {
+        "name": "Aashish Raghav",
+        "imageurl": " ",
+        "about": "Participant openCode",
+        "facebook": "--",
+        "github": "https://github.com/Aashish-Raghav",
+        "twitter": "--"
+      },
   
    {
       "name": "Sushmitha",
@@ -426,5 +434,3 @@
    "referral": "none"
   }
 ]
-
-
