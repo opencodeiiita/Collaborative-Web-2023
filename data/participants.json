@@ -1,5 +1,13 @@
 [
-  {
+   {
+      "name": "Sanjay Paul",
+      "imageurl": "",
+      "about": "Contributor",
+      "facebook": "",
+      "github": "https://github.com/rebornstar1",
+      "twitter": ""
+   },
+   {
     "name" : "Aman Kumar",
     "imageurl" : "httpsdrive.google.comfiled1tPIQvH0TGH3hJFZiEe8hd56QP5z7soafviewusp=sharing",
     "about" : "Hello I'm a web developer",
