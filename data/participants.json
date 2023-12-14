@@ -1,5 +1,15 @@
 [
    {
+        "name": "Ayush Krishna",
+        "imageurl": "https://www.instagram.com/p/CsYJnfurk9GTNIcj7FUqjwGf6GAZRIEBrkeDRM0/",
+        "about": "Participant",
+        "college" : "IIITA",
+        "facebook": "",
+        "github": "https://github.com/Ayushk00",
+        "twitter": "",
+        "referral" : "Akshay Waghmare"
+   },
+   {
         "name": "Tejas Sharma",
         "imageurl": "https://avatars.githubusercontent.com/u/120678627?s=400&v=4",
         "about": "Hello, I'm a web developer",
