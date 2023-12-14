@@ -1,1 +1,12 @@
-[]
+[
+   {
+        "name": "Sahul Kumar",
+        "imageurl": "",
+        "about": "Hello, I'm a web developer",
+        "college": "IIITA",
+        "facebook": "",
+        "github": "https://github.com/InnocentSinner08",
+        "twitter": "https://twitter.com/in_cesin",
+        "referral": "None"
+     }
+]
