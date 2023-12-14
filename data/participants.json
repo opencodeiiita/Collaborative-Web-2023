@@ -574,6 +574,16 @@
    "referral": ""
 },
 {
+   "name": "Anmol Sinha",
+   "imageurl": "image/avatar url",
+   "about": "Hello, I'm a web developer",
+   "college": "IIITA",
+   "facebook": "",
+   "github": "https://github.com/Anmoliita",
+   "twitter": "",
+   "referral": ""
+},
+{
    "name": "Atharva Chavan",
    "imageurl": "https://photos.app.goo.gl/w7pfpER9UbgfhwsW6",
    "about": "Hello , I am a Web Developer",
@@ -582,6 +592,5 @@
    "github": "https://github.com/atharva0192",
    "twitter": "none",
    "referral": "none"
-} , 
-
+} ,
 ]
