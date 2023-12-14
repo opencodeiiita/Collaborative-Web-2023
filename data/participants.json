@@ -1,5 +1,15 @@
 [
   {
+     "name": "Wadad Parker",
+     "imageurl": "https://avatars.githubusercontent.com/u/117439709?s=400&u=1a029e51943426fbd8dab2bbddffad409d6512c4&v=4",
+     "about": "A web developer, specialist in frontend",
+     "college": "Jain College",
+     "facebook": "",
+     "github": "https://github.com/WadadParker",
+     "twitter": "https://twitter.com/wadadparker",
+     "referral": ""
+  },
+  {
      "name": "Ayush Sahu",
      "imageurl": "https://avatars.githubusercontent.com/u/136724527?v=4",
      "about": "Hello, I'm a web developer, who loves designing Interfaces and converting them to code.",
@@ -205,5 +215,4 @@
       "github": "https://github.com/PoonamGate",
       "twitter": "https://twitter.com/PG504910332147"
   }
-
 ]
