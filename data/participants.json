@@ -1,1 +1,11 @@
-[]
+[{
+
+    "name" : "Komal Pardasani",
+    "imageurl" : "contestant/avatar.jpg",
+    "about" : "Hello I'm a web developer",
+    "college" : "IIITA",
+    "facebook" : "",
+    "github" : "https://github.com/Komalpardasani",
+    "twitter" : "",
+    "referral" : "IIITA"
+ }]
