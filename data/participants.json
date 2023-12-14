@@ -1,4 +1,14 @@
 [
+   {
+        "name": "Sahul Kumar",
+        "imageurl": "",
+        "about": "Hello, I'm a web developer",
+        "college": "IIITA",
+        "facebook": "",
+        "github": "https://github.com/InnocentSinner08",
+        "twitter": "https://twitter.com/in_cesin",
+        "referral": "None"
+     },
     {
         "name": "Harshal Gainer",
         "imageurl": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.polygon.com%2F23032963%2Fdemon-slayer-season-3-everything-we-know&psig=AOvVaw0OvpVA7MP92CVllMci4X-2&ust=1702649416125000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCLDPzb-Nj4MDFQAAAAAdAAAAABAD",
@@ -534,4 +544,3 @@
    "referral": "none"
   }
 ]
-
