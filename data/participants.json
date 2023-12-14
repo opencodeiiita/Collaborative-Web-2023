@@ -1,4 +1,14 @@
 [
+  
+{
+
+    "name" : "Jatin Panday",
+    "imageurl" : "mentor/image.jpg",
+    "about" : "Hello I'm a web developer",
+    "facebook" : "https://th.bing.com/th/id/R.e5e4f3b22566b2ccea9bc6680987f913?rik=uVBstjRkbiuw7g&riu=http%3a%2f%2fwww.pngmart.com%2ffiles%2f12%2fBoy-Emoji-Avatar-PNG.png&ehk=SgpajcnA5u9WwI2Xh9dZlQv%2ftFhmblCXdw7OIQTR2dM%3d&risl=&pid=ImgRaw&r=0",
+    "github" : "https://github.com/JATIN-PANDAY",
+    "twitter" : ""
+ },
     {
        "name" : "Agatsya Narayanan",
        "imageurl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy2QeqHWU_3ydvcC9iF6uEWBKwy4-dF6bIOu-qX83vo38KJkGjCTJdJDXothWAaGkvcbc&usqp=CAU",
