@@ -1,1 +1,12 @@
-[]
+[
+    {
+      "name": "Shaurya Jain",
+      "imageurl": "images/Shauryajain (2).jpg",
+      "about": "Hello, I'm a Frontend Web Developer. I have experience in using technologies like React.js , Next.js",
+      "college": "IIIT Allahabad",
+      "facebook": "url",
+      "github": "https://github.com/ShauryaJain03",
+      "twitter": "url",
+      "referral": "Who referred you?"
+    }
+]
