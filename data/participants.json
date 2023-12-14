@@ -1,1 +1,14 @@
-[]
+[
+
+  {
+    "name": "Ajay Kumar",
+    "imageurl": "image/avatar url",
+    "about": "Hello, I'm a web developer,cybersecurity enthusiast and game lover",
+    "college": "IIITA",
+    "facebook": "url",
+    "github": "https://github.com/ajay484/Collaborative-Web-2023",
+    "twitter": "url",
+    "referral": "Opencode"
+ }
+
+]
