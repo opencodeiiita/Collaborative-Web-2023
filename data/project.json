@@ -4,5 +4,10 @@
         "description": "Opencode'23 Collaborative website!",
         "repo-url": "https://github.com/opencodeiiita/Collaborative-Web-2023"
     }
+
+    {   
+        "name": "TechTerra",
+        "description": "UI/UX for a Tech Website",
+        "repo-url": "https://github.com/opencodeiiita/TechTerra"
+    }
 ]
-    
