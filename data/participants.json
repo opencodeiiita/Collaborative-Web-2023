@@ -1,1 +1,10 @@
-[]
+{
+        "name": "Anmol Sinha",
+        "imageurl": "https://example.com/your-avatar.jpg",
+        "about": "Hello, I'm a web developer",
+        "college": "IIITA",
+        "facebook": "",
+        "github": "https://github.com/Anmoliita",
+        "twitter": "",
+        "referral": ""
+}
