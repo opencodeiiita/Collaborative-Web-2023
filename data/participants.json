@@ -1,5 +1,15 @@
 [
    {
+        "name": "Kartik Aggarwal",
+        "imageurl": "https://drive.google.com/file/d/1yBBucauJvHI32XgcTZa697y1f_Cy6ugs/view?usp=sharing",
+        "about": "Hello, I am full stack web developer and also a competitive programmer and have good knowledge of Data Structures and Algorithms.",
+        "college": "Jaypee Institiue of Information Technology",
+        "facebook": "",
+        "github": "https://github.com/Xaverick",
+        "twitter": "",
+        "referral": "College Seniors"
+   },
+   {
        "name": "Jai Khanna",
        "imageurl": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.thehergula.com%2Fjujutsu-kaisens-gojo-satoru-will-be-animes-most-popular-character%2F&psig=AOvVaw2ZTSgtr8Q1eCk6jm0ix-WS&ust=1702629985495000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCOCMi4_FjoMDFQAAAAAdAAAAABAD",
        "about": "Hello, I'm a wannabe full stack developer",
@@ -58,3 +68,4 @@
       "twitter": "https://twitter.com/PG504910332147"
   }
 ]
+
