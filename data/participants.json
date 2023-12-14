@@ -1,4 +1,14 @@
-[
+[  
+  {
+       "name" : "Kushal",
+       "imageurl" : "https://avatars.githubusercontent.com/kushal7201",
+       "about" : "I'm passionate about exploring the latest technologies and applying them to solve problems.",
+       "college" : "IIITA",
+       "facebook" : "",
+       "github" : "https://github.com/kushal7201",
+       "twitter" : "",
+       "referral" : "NA"
+    },
   {
     "name": "Vineesh Mittal",
      "imageurl": "",
@@ -264,4 +274,3 @@
       "twitter": "https://twitter.com/PG504910332147"
   }
 ]
-
