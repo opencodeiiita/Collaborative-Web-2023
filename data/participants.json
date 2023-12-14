@@ -1,5 +1,15 @@
 [
    {
+        "name": "Tejas Sharma",
+        "imageurl": "https://avatars.githubusercontent.com/u/120678627?s=400&v=4",
+        "about": "Hello, I'm a web developer",
+        "college": "IIIT Allahabad",
+        "facebook": "NIL",
+        "github": "https://github.com/Tej-as1",
+        "twitter": "NIL",
+        "referral": "NIL"
+   },
+   {
         "name": "Kartik Aggarwal",
         "imageurl": "https://drive.google.com/file/d/1yBBucauJvHI32XgcTZa697y1f_Cy6ugs/view?usp=sharing",
         "about": "Hello, I am full stack web developer and also a competitive programmer and have good knowledge of Data Structures and Algorithms.",
