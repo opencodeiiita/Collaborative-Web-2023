@@ -1,4 +1,15 @@
 [
+  
+   {
+      "name": "Sushmitha",
+      "imageurl": "",
+      "about": "Hello, I'm a web developer",
+      "college": "Indian Institute of Information Technology,Allahabad",
+      "facebook": "",
+      "github": "https://github.com/imsushmitha-13",
+      "twitter": "",
+      "referral": ""
+   },
   {
     "name": "Ajay Kumar",
     "imageurl": "image/avatar url",
@@ -18,9 +29,8 @@
    "github": "https://github.com/Sindhu194",
    "twitter": "none",
    "referral": "none"
-}]
+},
 
-[
   {
    "name": "Aditi Gupta",
    "imageurl": "https://avatars.githubusercontent.com/u/127166802?v=4",
@@ -404,12 +414,8 @@
       "github": "https://avatars.githubusercontent.com/u/122982383?v=4",
       "twitter": "",
       "referral": ""
-   }
-]
-
-
-
-[{
+   },
+  {
    "name": "Veerathu Sri Sindhu",
    "imageurl": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pcinvasion.com%2Fice-age-scrats-nutty-adventure-has-you-collecting-nuts-as-scrat%2F&psig=AOvVaw3E-oD_jgO6cvOT6yZLu-Ps&ust=1702657109580000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCPjg5ZOqj4MDFQAAAAAdAAAAABAI",
    "about": "Hello, I'm a web developer",
@@ -418,4 +424,7 @@
    "github": "https://github.com/Sindhu194",
    "twitter": "none",
    "referral": "none"
-}]
+  }
+]
+
+
