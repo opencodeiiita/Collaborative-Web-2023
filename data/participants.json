@@ -1,5 +1,15 @@
-
-[{
+[
+  {
+    "name": "Ajay Kumar",
+    "imageurl": "image/avatar url",
+    "about": "Hello, I'm a web developer,cybersecurity enthusiast and game lover",
+    "college": "IIITA",
+    "facebook": "url",
+    "github": "https://github.com/ajay484/Collaborative-Web-2023",
+    "twitter": "url",
+    "referral": "Opencode"
+ },
+  {
    "name": "Veerathu Sri Sindhu",
    "imageurl": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pcinvasion.com%2Fice-age-scrats-nutty-adventure-has-you-collecting-nuts-as-scrat%2F&psig=AOvVaw3E-oD_jgO6cvOT6yZLu-Ps&ust=1702657109580000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCPjg5ZOqj4MDFQAAAAAdAAAAABAI",
    "about": "Hello, I'm a web developer",
