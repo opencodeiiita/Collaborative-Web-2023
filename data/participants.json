@@ -1,1 +1,13 @@
-[]
+[
+    {
+
+        "name" : "Aman Kumar",
+        "imageurl" : "httpsdrive.google.comfiled1tPIQvH0TGH3hJFZiEe8hd56QP5z7soafviewusp=sharing",
+        "about" : "Hello I'm a web developer",
+        "college" : "My college",
+        "facebook" : "",
+        "github" : "https://github.com/amankumar0724",
+        "twitter" : "",
+        "referral" : "Gaurav"
+     }
+]
