@@ -562,7 +562,7 @@
    "github": "https://github.com/parth_1egend",
    "twitter": "parth_1egend",
    "referral": "none"
-  }
+  },
   {
    "name": "Aansh Chandrakant Dubey",
    "imageurl": "https://c4.wallpaperflare.com/wallpaper/592/378/467/tv-show-rick-and-morty-mug-shot-rick-sanchez-wallpaper-preview.jpg",
@@ -582,5 +582,15 @@
    "github": "https://github.com/Anmoliita",
    "twitter": "",
    "referral": ""
-}
+},
+{
+   "name": "Atharva Chavan",
+   "imageurl": "https://photos.app.goo.gl/w7pfpER9UbgfhwsW6",
+   "about": "Hello , I am a Web Developer",
+   "college": "IIITA",
+   "facebook": "none",
+   "github": "https://github.com/atharva0192",
+   "twitter": "none",
+   "referral": "none"
+} ,
 ]
