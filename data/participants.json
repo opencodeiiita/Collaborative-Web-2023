@@ -332,7 +332,17 @@
       "facebook": "",
       "github": "https://github.com/PoonamGate",
       "twitter": "https://twitter.com/PG504910332147"
-  }
+  },
+  {
+    "name": "Anmol Sinha",
+    "imageurl": "image/avatar url",
+    "about": "Hello, I'm a web developer",
+    "college": "IIITA",
+    "facebook": "",
+    "github": "https://github.com/Anmoliita",
+    "twitter": "",
+    "referral": ""
+ },
    {
       "name": "Vedant Kulkarni",
       "imageurl": "",
@@ -342,5 +352,5 @@
       "github": "https://avatars.githubusercontent.com/u/122982383?v=4",
       "twitter": "",
       "referral": ""
-   },
+   }
 ]
