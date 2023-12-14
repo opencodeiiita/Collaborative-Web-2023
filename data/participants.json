@@ -1,1 +1,13 @@
-[]
+[
+  {
+
+       "name" : "Mansa Mahendru",
+       "imageurl" : "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/021ff234-e11d-4884-81e7-cb822338f600/width=1200/021ff234-e11d-4884-81e7-cb822338f600.jpeg",
+       "about" : "Hello I'm a designer",
+       "college" : "IIITA",
+       "facebook" : "url",
+       "github" : "https://github.com/Hannah2k23",
+       "twitter" : "url",
+       "referral" : "N/A"
+    },
+]
