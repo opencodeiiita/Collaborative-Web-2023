@@ -603,4 +603,25 @@
    "twitter": "",
    "referral": ""
 },
+  {
+      "name": "Nishant Kale",
+      "imageurl": "",
+      "about": "Hello, I'm a web developer",
+      "college": "Indian Institute Of Information Technology Allahabad",
+      "facebook": "url",
+      "github": "https://github.com/nishantkale22",
+      "twitter": "",
+      "referral": " "
+  },
+{
+   "name": "Vraj Shah",
+   "imageurl": "image/avatar url",
+   "about": "Hello, I'm a full stack developer",
+   "college": "IIIT Alahabad",
+   "facebook": "url",
+   "github": "https://github.com/Vrajshah34",
+   "twitter": "url",
+   "referral": "none"
+}
+
 ]
