@@ -593,4 +593,14 @@
    "twitter": "none",
    "referral": "none"
 } ,
+{
+   "name": "Vraj Shah",
+   "imageurl": "image/avatar url",
+   "about": "Hello, I'm a full stack developer",
+   "college": "IIIT Alahabad",
+   "facebook": "url",
+   "github": "https://github.com/Vrajshah34",
+   "twitter": "url",
+   "referral": "none"
+}
 ]
