@@ -598,6 +598,17 @@
    "referral": "none"
 } ,
 {
+
+   "name": "Dikshant Khandelwal",
+   "imageurl": "https://drive.google.com/file/d/1HS-19Wsj6iQPdf_T9Z9pZUAPuIHIWWqn/view?usp=drive_link",
+   "about": "Hola, I am a web developer.",
+   "college": "IITH",
+   "facebook": "",
+   "github": "https://github.com/DikshantK2004",
+   "twitter": "",
+   "referral": ""
+} ,
+{
    "name": "Sugam Sareen",
    "imageurl": "",
    "about": "Hello, I'm a web developer",
@@ -637,5 +648,4 @@
    "twitter": "url",
    "referral": "none"
 }
-
 ]
