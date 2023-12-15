@@ -1,0 +1,17 @@
+body{
+    height: 150vh;
+    overflow: auto;
+}
+#moveToTop{
+    border-radius: 50%;
+    height:55px;
+    width:55px;
+    position: fixed;
+    bottom:-100px;
+    right:15px;
+    cursor:pointer;
+}
+#imageArrow{
+    height:40px;
+    width:35px;
+}
