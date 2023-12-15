@@ -245,6 +245,16 @@
    "referral": "College mail"
 },
 {
+   "name": "Anushka Pandit",
+   "imageurl": " ",
+   "about": "Student at IIITA",
+   "college": "IIIT Allahabad",
+   "facebook": " ",
+   "github": "https://github.com/anushkp1107",
+   "twitter": " ",
+   "referral": "N/A"
+},
+{
    "name": "Krishay Nair",
    "imageurl": "image/Krishay.jpg",
    "about": "Hello, I'm a web developer and a 3rd year computer science student",
