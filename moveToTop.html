@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Move to Top</title>
+    <style>
+        body{
+            height: 150vh;
+            overflow: auto;
+        }
+        button{
+            border-radius: 50%;
+            height:55px;
+            width:55px;
+            position: fixed;
+            bottom:-100px;
+            right:15px;
+            cursor:pointer;
+        }
+        img{
+            height:40px;
+            width:35px;
+        }
+        p{
+            margin-top: 20px;
+            margin-left: 10px;
+            width:500px;
+        }
+    </style>
+</head>
+<body id="body">
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum soluta at provident molestiae laboriosam qui ipsa reprehenderit enim! Officia odit natus ut debitis voluptatem eaque mollitia doloremque iure soluta! Vitae.!</p>
+    <button id="moveToTop"><img src="images/arrow.png"></button>
+    <script>
+        let moveToTop=document.getElementById("moveToTop");
+        let body=document.getElementById("body");
+        window.addEventListener("scroll",function(){
+            if(window.scrollY>1){
+                moveToTop.style.bottom="10px";
+            }
+            else{
+                moveToTop.style.bottom="-100px";
+            }
+        });
+        moveToTop.addEventListener("click",function(){
+            window.scrollTo({top:0,behavior:"smooth"});
+        })
+    </script>
+
+</body>
+</html>
