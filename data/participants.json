@@ -593,6 +593,16 @@
    "twitter": "none",
    "referral": "none"
 } ,
+  {
+      "name": "Nishant Kale",
+      "imageurl": "",
+      "about": "Hello, I'm a web developer",
+      "college": "Indian Institute Of Information Technology Allahabad",
+      "facebook": "url",
+      "github": "https://github.com/nishantkale22",
+      "twitter": "",
+      "referral": " "
+  },
 {
    "name": "Vraj Shah",
    "imageurl": "image/avatar url",
@@ -603,4 +613,5 @@
    "twitter": "url",
    "referral": "none"
 }
+
 ]
