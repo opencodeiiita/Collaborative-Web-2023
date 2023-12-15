@@ -593,4 +593,14 @@
    "twitter": "none",
    "referral": "none"
 } ,
+    {
+   "name": "Anukrati Chaturvedi",
+   "imageurl": "image/avatar url",
+   "about": "Hello, I'm a sophmore at IIITM enthusiastic to learn",
+   "college": "ABV-IIITM GWALIOR",
+   "facebook": "",
+   "github": "https://github.com/anukraticodes",
+   "twitter": "",
+   "referral": ""
+},
 ]
