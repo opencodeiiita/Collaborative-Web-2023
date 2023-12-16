@@ -245,6 +245,16 @@
    "referral": "College mail"
 },
 {
+   "name": "Anushka Pandit",
+   "imageurl": " ",
+   "about": "Student at IIITA",
+   "college": "IIIT Allahabad",
+   "facebook": " ",
+   "github": "https://github.com/anushkp1107",
+   "twitter": " ",
+   "referral": "N/A"
+},
+{
    "name": "Krishay Nair",
    "imageurl": "image/Krishay.jpg",
    "about": "Hello, I'm a web developer and a 3rd year computer science student",
@@ -658,3 +668,87 @@
    "twitter": "url",
    "referral": " "
  },
+}
+    {
+      "name": "Ankita Singh",
+      "imageurl": "",
+      "about": "Hello, I'm a web developer",
+      "college": "Indian Institute Of Information Technology Allahabad",
+      "facebook": "url",
+      "github": "https://github.com/saanjh24",
+      "twitter": "",
+      "referral": " "
+  },
+   {
+      "name": "Satvik",
+      "imageurl": "",
+      "about": "Hello, I'm contributor",
+      "college": "Indian Institute Of Information Technology Allahabad",
+      "facebook": "",
+      "github": "https://github.com/Satvik7773",
+      "twitter": "",
+      "referral": " "
+  },
+   ,
+   {
+      "name": "Prakhar Shukla",
+      "imageurl": "https://media.licdn.com/dms/image/D4D03AQFcqrdma7djag/profile-displayphoto-shrink_800_800/0/1689774859727?e=1707955200&v=beta&t=ZlWQrbvCQ4yJIRTUtNa9y7U8Kwj1ta67aJrNZsHlub4",
+      "about": "Hello, I'm contributor",
+      "college": "Indian Institute Of Information Technology Allahabad",
+      "facebook": "https://www.instagram.com/prakhar_shukla.py/",
+      "github": "https://github.com/tonyStark-Jr",
+      "twitter": "",
+      "referral": ""
+  },
+   {
+    "name": "Nuaim Mohammed C.L.",
+    "imageurl": "",
+    "about": "Tries out different topics",
+    "college": "IIITDM Kancheepuram",
+    "facebook": "",
+    "github": "https://github.com/Talentedfalcon",
+    "twitter": "",
+    "referral": "OpenCode"
+   },
+   {
+    "name": "R Aswin",
+    "imageurl": "",
+    "about": "Budding Web Developer and a contributor",
+    "college": "DSCE Bangalore",
+    "facebook": "",
+    "github": "https://github.com/Aswinr24",
+    "twitter": "",
+    "referral": ""
+   },
+   {
+   "name": "Aditya Khairnar",
+   "imageurl": "",
+   "about": "Hello, I'm a web developer and contributor",
+   "college": "IIITA",
+   "facebook": "https://www.facebook.com/profile.php?id=61551867999629",
+   "github": "https://github.com/k7aditya",
+   "twitter": "url",
+   "referral": "none"
+},
+{
+      "name": "Navaneetha Krishnan R",
+      "imageurl": "",
+      "about": "Web Developer",
+      "college": "CEG Chennai",
+      "facebook": "https://www.facebook.com/rnavaneetha.krishnan.9",
+      "github": "https://github.com/rnavaneeth992",
+      "twitter": "https://twitter.com/RNavaneethKris1",
+      "referral": ""
+     },
+     {
+      "name": "Arin Kulkarni",
+      "imageurl": "",
+      "about": "I am pr0geek",
+      "college": "IIT H",
+      "facebook": "",
+      "github": "https://github.com/akoolarni",
+      "twitter": "",
+      "referral": ""
+   }
+
+]
