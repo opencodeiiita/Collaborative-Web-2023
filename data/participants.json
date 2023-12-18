@@ -801,5 +801,25 @@
    "github": "https://github.com/Shweta-1902",
    "twitter": "",
    "referral": ""
-}
+},
+{
+   "name": "Deepanshu Singh",
+   "imageurl": "",
+   "about": "sleepyhead",
+   "college": "IIIT ALLAHABAD",
+   "facebook": "",
+   "github": "https://github.com/singh-deep-anshu",
+   "twitter": "",
+   "referral": "Open Code"
+},
+   {
+      "name": "Harsh Bagwar",
+      "imageurl": "",
+      "about": "Hello, This is Harsh, with my thoughts revolving around web3, blockchain, and brownies.",
+      "college": "IIITA",
+      "facebook": "",
+      "github": "https://github.com/harshbagwar",
+      "twitter": "",
+      "referral": ""
+   }
 ]

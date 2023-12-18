@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Kufam&family=Oswald&display=swap');
+#hero-section {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: rgb(2,0,36);
+    background: linear-gradient(#0C1717, #17403E, #132222);
+    padding: 20px 20px;
+    height: 700px;
+}
+
+#hero-section .logo {
+    width: 50%;
+    height: auto;
+    text-align: center;
+}
+
+#hero-section .content {
+    width: 50%;
+    text-align: left;
+    font-family: 'Kufam', sans-serif;
+}
+
+#hero-section h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #B7E7D9;
+}
+
+#hero-section button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #498B88; 
+    color: #FFFFFF; 
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    border-radius: 10px;
+    font-family: 'Kufam', sans-serif;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    box-shadow: 4px 4px 4px 0px #00000040 inset;
+}
+
+@media (max-width: 768px) {
+    #hero-section {
+        flex-direction: column;
+        text-align: center;
+        padding: 10px 10px;
+        height: 350px;
+    }
+
+    #hero-section .content {
+        max-width: 100%;
+    }
+
+    #hero-section button {
+        padding: 5px 10px;
+        font-size: 1em;
+        width: 80%;
+    }
+
+    .logo img{
+        height: 175px;
+        width: 175px;
+    }
+
+    #hero-section h1 {
+        font-size: 1em;
+        margin-bottom: 10px;
+    }
+}
