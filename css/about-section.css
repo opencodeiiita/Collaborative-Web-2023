@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Kufam&family=Oswald&display=swap');
+#about-section {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: rgb(2,0,36);
+    background: linear-gradient(#0C1717, #17403E, #132222);
+    padding: 20px 20px;
+    height: 700px;
+}
+
+#about-section .logo {
+    width: 50%;
+    height: auto;
+    text-align: center;
+}
+
+#about-section .content {
+    width: 50%;
+    text-align: left;
+    font-family: 'Kufam', sans-serif;
+    padding: 40px;
+}
+
+#about-section h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: #00CF90;
+}
+
+#about-section h3 {
+    font-size: 1em;
+    margin-bottom: 20px;
+    font-weight: 400;
+    color: #B7E7D9;
+}
+
+#about-section button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #498B88; 
+    color: #FFFFFF; 
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    border-radius: 10px;
+    font-family: 'Kufam', sans-serif;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    box-shadow: 4px 4px 4px 0px #00000040 inset;
+}
+
+@media (max-width: 768px) {
+    #about-section {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px 0px;
+        height:max-content;
+    }
+
+    #about-section .content {
+        max-width: 100%;
+        padding: 0px;
+    }
+
+    #about-section button {
+        padding: 5px 10px;
+        font-size: 1em;
+        width: 80%;
+    }
+
+    .logo img{
+        height: 175px;
+        width: 175px;
+    }
+
+    #about-section h1 {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+    }
+
+    #about-section h3 {
+        font-size: 0.9em;
+        margin-bottom: 10px;
+    }
+}
