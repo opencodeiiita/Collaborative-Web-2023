@@ -827,7 +827,7 @@
       "github": "https://github.com/clumsydog09",
       "twitter": "",
       "referral": ""
-   }
+   },
    {
       "name": "Sunil Yadav",
       "imageurl": "",
@@ -837,5 +837,15 @@
       "github": "https://github.com/Sunil7932",
       "twitter": "",
       "referral": ""
-   }
+   },
+   {
+      "name": "Arpit Anand",
+      "imageurl": "",
+      "about": "Hello, I'm a web developer",
+      "college": "IIIT Allahabad",
+      "facebook": "",
+      "github": "https://github.com/Buddha-11",
+      "twitter": "",
+      "referral": ""
+  },
 ]
