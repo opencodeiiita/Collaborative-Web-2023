@@ -39,7 +39,7 @@ ul{
 	padding-left: 18px;
 }
 footer{
-	background-color: var(--background);
+	/* background-color: var(--background); */
     padding: 70px 0;
 }
 .footer-col{

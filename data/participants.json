@@ -839,6 +839,16 @@
       "referral": ""
    },
    {
+      "name": "Apoorv012",
+      "imageurl": "",
+      "about": "Hello , I am a Backend Developer and a Game dev",
+      "college": "JIIT Noida",
+      "facebook": "",
+      "github": "https://github.com/Apoorv012",
+      "twitter": "",
+      "referral": ""
+   },
+   {
       "name": "Arpit Anand",
       "imageurl": "",
       "about": "Hello, I'm a web developer",
@@ -858,5 +868,39 @@
        "github" : "https://github.com/satan-pro",
        "twitter" : "",
        "referral" : ""
-    }
+    },
+
+
+    {
+      "name": "BHAVYASRI",
+      "imageurl": "",
+      "about": "Hello, I'm a designer",
+      "college": "IIIT Allahabad",
+      "facebook": "",
+      "github": "https://github.com/bhavyasri6475",
+      "twitter": "",
+      "referral": ""
+  },
+
+   {
+   "name": "Usman Faki",
+   "imageurl": "N/A",
+   "about": "Hello, I'm a web developer",
+   "college": "UMYU",
+   "facebook": "N/A",
+   "github": "https://github.com/usman3600/",
+   "twitter": "N/A",
+   "referral": "N/A"
+},
+ {
+   "name": "Shakthi Raj",
+   "imageurl": "image/avatar url",
+   "about": "Hello, I'm a web developer",
+   "college": "The oxford college of business management bangalore",
+   "facebook": "",
+   "github": "https://github.com/Shakthi78",
+   "twitter": "",
+   "referral": ""
+}
+
 ]

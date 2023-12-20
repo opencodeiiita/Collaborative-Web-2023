@@ -1,6 +1,7 @@
 body{
     height: 150vh;
     overflow: auto;
+    background: linear-gradient(#0C1717, #17403E, #132222);
 }
 #moveToTop{
     border-radius: 50%;
