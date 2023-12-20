@@ -848,7 +848,17 @@
       "twitter": "",
       "referral": ""
   },
-  {
+   {
+   "name": "Usman Faki",
+   "imageurl": "N/A",
+   "about": "Hello, I'm a web developer",
+   "college": "UMYU",
+   "facebook": "N/A",
+   "github": "https://github.com/usman3600/",
+   "twitter": "N/A",
+   "referral": "N/A"
+},
+ {
    "name": "Shakthi Raj",
    "imageurl": "image/avatar url",
    "about": "Hello, I'm a web developer",
