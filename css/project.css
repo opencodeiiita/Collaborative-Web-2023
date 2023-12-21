@@ -1,0 +1,142 @@
+#projects {
+  /* border: 2px solid black; */
+  margin-top: 100px;
+  background: linear-gradient(#0c1717, #17403e, #132222);
+}
+#project-div {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 50px;
+}
+#project-div h1 {
+  color: #00cf90;
+  font-family: "Kufam", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+}
+#project-div p {
+  color: white;
+  font-weight: 400;
+  line-height: 19.5px;
+  margin: auto;
+  text-align: center;
+}
+#wrapper {
+  margin: 0 30px;
+  margin-top: 50px;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card {
+  background-color: rgba(217, 217, 217, 0.2);
+
+  width: 230px;
+  margin: 25px 25px;
+  justify-content: center;
+  text-align: center;
+  transition: 0.3s ease;
+  height: 24rem;
+  justify-content: center;
+}
+.card:hover {
+    box-shadow: 0px 40px 56px rgba(8, 157, 60, 0.1);
+  transition: 0.3s;
+}
+.card {
+  padding: 4px 10px;
+  border-radius: 10px;
+}
+.image {
+  height: 90px;
+  margin: 10px 10px;
+  padding-top: 10px;
+  padding-bottom: 1px;
+  border-radius: 50%;
+}
+.project-name h3 {
+  font-size: 25px;
+  font-family: "Kufam", sans-serif;
+  color: #00cf90;
+  font-weight: 400;
+
+}
+.about-project {
+    margin-top: 25px;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+  color: #B7E7D9;
+}
+
+.project-name {
+  color: rgba(255, 255, 255, 1);
+  font-weight: 100;
+}
+
+.github {
+  
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.github a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(79, 210, 105, 0.117);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #00cf90;
+	transition: all 0.5s ease;
+}
+.github a:hover{
+	color: rgb(255, 255, 255);
+	background-color: #00cf90;
+}
+
+
+@media screen and (max-width: 615px) {
+  .card {
+    margin: 25px 15px;
+  }
+  #container {
+
+    justify-content: space-between;
+  }
+  #project-div p {
+    font-size: 15px;
+    width: 304px;
+  }
+}
+@media screen and (min-width: 350px) and (max-width: 580px) {
+  #container {
+    justify-content: center;
+  }
+  .card {
+    width: 200px;
+    margin: 25px 20px;
+  }
+}
+@media screen and (min-width: 350px) and (max-width: 545px) {
+  #container {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .card {
+    width: 175px;
+    padding-left: 0px;
+    margin-right: 4px;
+    margin-left: 4px;
+  }
+}
+@media screen and (min-width: 454px) and (max-width: 540px) {
+  .card {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
