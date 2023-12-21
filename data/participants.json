@@ -858,6 +858,21 @@
       "twitter": "",
       "referral": ""
   },
+
+   { 
+      
+      "name": "Aastha Ojha",
+      "imageurl": "",
+      "about": "Hi, I am a contributor in opencode",
+      "college": "Indian Institue of Information Technology,Allahabad",
+      "facebook": "",
+      "github": "https://github.com/Aastha-ojha-20",
+      "twitter": "",
+      "referral": ""
+
+  },
+
+
    {
 
        "name" : "Sayantan Sett",
@@ -901,6 +916,7 @@
    "github": "https://github.com/Shakthi78",
    "twitter": "",
    "referral": ""
+
 },
    {
    "name": "Abhishek Sharma",
@@ -911,5 +927,5 @@
    "github": "https://github.com/abhisheksharma010",
    "twitter": "https://twitter.com/___Introvert_",
    "referral": ""
-}
+},
 ]
