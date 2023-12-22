@@ -1,5 +1,15 @@
 [
    {
+      "name": "Deepanshu Negi",
+      "imageurl": "",
+      "about": "Hello, I am a beginner in web developer",
+      "college": "KRMU",
+      "facebook": "",
+      "github": "https://github.com/deepanshunegi06",
+      "twitter": "",
+      "referral": ""
+   },
+   {
       "name": "Anmol Sinha",
       "imageurl": "https://example.com/your-avatar.jpg",
       "about": "Hello, I'm a web developer",
