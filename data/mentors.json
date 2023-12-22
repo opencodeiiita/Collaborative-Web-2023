@@ -1,18 +1,367 @@
 [
-  {
-    "name": "Pranav Tiwari",
-    "imageurl": "https://avatars.githubusercontent.com/u/98329292?v=4",
-    "about": "Organiser",
-    "facebook": "",
-    "github": "https://github.com/GammaMicrowave",
-    "twitter": ""
-  },
-  {
-    "name":"Vishesh Vijayvargiya",
-    "imageurl":"https://avatars.githubusercontent.com/u/97442257?v=4",
-    "about":"Organiser",
-    "facebook":"",
-    "github":"https://github.com/Vishesh-Vijay",
-    "twitter":""
-  }
+      {
+        "Name": "Vihaan Marathey ",
+        "Discord": "vihaan1009",
+        "Wing": "WebD",
+        "Role": "Member ",
+        "github": "https://github.com/Vihaan19",
+        "gitavatar": "https://avatars.githubusercontent.com/Vihaan19"
+      },
+      {
+        "Name": "Bhupesh Dewangan ",
+        "Discord": "bhupesh6726",
+        "Wing": "FOSS",
+        "Role": "Member ",
+        "github": "https://github.com/bhupesh98",
+        "gitavatar": "https://avatars.githubusercontent.com/bhupesh98",
+        "linkden": "https://www.linkedin.com/in/bhupesh-dewangan-9763941a5"
+      },
+      {
+        "Name": "Tiyasa Sarkar ",
+        "Discord": "tiyasa",
+        "Wing": "FOSS",
+        "Role": "Member ",
+        "github": "https://github.com/Tiyasa9",
+        "gitavatar": "https://avatars.githubusercontent.com/Tiyasa9"
+      },
+      {
+        "Name": "Deepanshu Gupta",
+        "Discord": "deepanshu26_",
+        "Wing": "Design",
+        "Role": "Member ",
+        "github": "https://github.com/D-Hacker26",
+        "gitavatar": "https://avatars.githubusercontent.com/D-Hacker26",
+        "linkden": "https://www.linkedin.com/in/deepanshu-gupta-6a9a3a24b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+      },
+      {
+        "Name": "Srijan Jain",
+        "Discord": "fremder4500",
+        "Wing": "Competitive Coding ",
+        "Role": "Member ",
+        "github": "https://github.com/srijan4500",
+        "gitavatar": "https://avatars.githubusercontent.com/srijan4500",
+        "linkden": "https://www.linkedin.com/in/srijan-jain-718987192?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+      },
+      {
+        "Name": "Gaurav ",
+        "Discord": "muffinboy__79808",
+        "Wing": "App dev",
+        "Role": "Member ",
+        "github": "https://github.com/Muffinboy19",
+        "gitavatar": "https://avatars.githubusercontent.com/Muffinboy19",
+        "linkden": "https://www.linkedin.com/in/gaurav-chhetri-a9a254250/"
+      },
+      {
+        "Name": "Swaroop Dora",
+        "Discord": "automatefreely",
+        "Wing": "WebD",
+        "Role": "Member",
+        "github": "https://github.com/automatefreely",
+        "gitavatar": "https://avatars.githubusercontent.com/automatefreely"
+      },
+      {
+        "Name": "Om Buddhadev",
+        "Discord": "theonewhoknocks",
+        "Wing": "Web",
+        "Role": "Member",
+        "github": "https://github.com/0mBudsMan",
+        "gitavatar": "https://avatars.githubusercontent.com/0mBudsMan",
+        "linkden": "https://www.linkedin.com/in/om-buddhadev-670ab125b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+      },
+      {
+        "Name": "Saiushasree",
+        "Discord": ".idlysambar",
+        "Wing": "FOSS Wing",
+        "Role": "Member",
+        "github": "https://github.com/saiushasree1",
+        "gitavatar": "https://avatars.githubusercontent.com/saiushasree1",
+        "linkden": "https://www.linkedin.com/in/saiushasree-kasu-a74464266"
+      },
+      {
+        "Name": "Vatsal Bhuva",
+        "Discord": "vb11x",
+        "Wing": "FOSS Wing",
+        "Role": "Member",
+        "github": "https://github.com/VatsalBhuva11",
+        "gitavatar": "https://avatars.githubusercontent.com/VatsalBhuva11",
+        "linkden": "https://www.linkedin.com/in/vatsal-bhuva-673587233?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+      },
+      {
+        "Name": "Oshanki Priya",
+        "Discord": "oshankiii12",
+        "Wing": "FOSS",
+        "Role": "Member",
+        "github": "https://github.com/oshankiii12",
+        "gitavatar": "https://avatars.githubusercontent.com/oshankiii12",
+        "linkden": "https://avatars.githubusercontent.com/oshankiii12"
+      },
+      {
+        "Name": "Rishika Gupta ",
+        "Discord": "rishikagupta31",
+        "Wing": "Design ",
+        "Role": "Member",
+        "github": "https://github.com/rishika-g31",
+        "gitavatar": "https://avatars.githubusercontent.com/rishika-g31",
+        "linkden": "https://www.linkedin.com/in/rishika-gupta-051343273"
+      },
+      {
+        "Name": "Ayushman Soni",
+        "Discord": "ayushman3660",
+        "Wing": "Design",
+        "Role": "Member",
+        "github": "https://github.com/AyushmanSoni",
+        "gitavatar": "https://avatars.githubusercontent.com/undefined",
+        "linkden": "https://www.linkedin.com/in/ayushman-soni-79082b263?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+      },
+      {
+        "Name": "Shashank Arora",
+        "Discord": "takeiteasy5810",
+        "Wing": "Design",
+        "Role": "Member",
+        "github": "https://github.com/shashank-lol",
+        "gitavatar": "https://avatars.githubusercontent.com/shashank-lol",
+        "linkden": "https://www.linkedin.com/in/shashank-arora-764b3724b/"
+      },
+      {
+        "Name": "Akshay Waghmare",
+        "Discord": "akshayw1",
+        "Wing": "Web D",
+        "Role": "Member",
+        "github": "https://github.com/akshayw1",
+        "gitavatar": "https://avatars.githubusercontent.com/akshayw1",
+        "linkden": "https://www.linkedin.com/in/akshay-waghmare-25a8b71a7/"
+      },
+      {
+        "Name": "Devam Desai",
+        "Discord": "dreddevil04",
+        "Wing": "Cyber Security",
+        "Role": "Member",
+        "github": "https://github.com/DRedDevil04",
+        "gitavatar": "https://avatars.githubusercontent.com/DRedDevil04",
+        "linkden": "https://www.linkedin.com/in/devam-desai-420b1a264/"
+      },
+      {
+        "Name": "Rakim Middya",
+        "Discord": "cuanim",
+        "Wing": "Cyber Security",
+        "Role": "Member",
+        "github": "https://github.com/rakim-0",
+        "gitavatar": "https://avatars.githubusercontent.com/rakim-0",
+        "linkden": "https://www.linkedin.com/in/rakim0/"
+      },
+      {
+        "Name": "Agrim Nauriyal ",
+        "Discord": "agrim07 ",
+        "Wing": "Competitive Coding ",
+        "Role": "Member",
+        "github": "https://github.com/agrim317",
+        "gitavatar": "https://avatars.githubusercontent.com/agrim317",
+        "linkden": "https://www.linkedin.com/in/agrim-nauriyal-46436a24b/"
+      },
+      {
+        "Name": "NIrbhay Paliwal",
+        "Discord": "endl._.",
+        "Wing": "Competitive Coding ",
+        "Role": "Member",
+        "github": "https://github.com/NirbhayPaliwal",
+        "gitavatar": "https://avatars.githubusercontent.com/NirbhayPaliwal"
+      },
+      {
+        "Name": "Suhani Pandey",
+        "Discord": "Suh@1974",
+        "Wing": "Blockchain Development ",
+        "Role": "Member",
+        "github": "https://github.com/suh1974",
+        "gitavatar": "https://avatars.githubusercontent.com/suh1974"
+      },
+      {
+        "Name": "Aryan Gautam",
+        "Discord": "Archief117",
+        "Wing": "Blockchain Development ",
+        "Role": "Member",
+        "github": "https://github.com/archief2910",
+        "gitavatar": "https://avatars.githubusercontent.com/archief2910",
+        "linkden": "https://www.linkedin.com/in/aryan-gautam-51a4a3253/"
+      },
+      {
+        "Name": "Ishant Kumawat",
+        "Discord": "insanecoder02",
+        "Wing": "App dev",
+        "Role": "Member",
+        "github": "https://github.com/insanecoder02",
+        "gitavatar": "https://avatars.githubusercontent.com/insanecoder02",
+        "linkden": "https://www.linkedin.com/in/ishant-kumawat-a54983252/"
+      },
+      {
+        "Name": "Shashank Shashidhar",
+        "Discord": "sensei1001010",
+        "Wing": "AI/ML",
+        "Role": "Member",
+        "github": "https://github.com/Shashank1985",
+        "gitavatar": "https://avatars.githubusercontent.com/Shashank1985",
+        "linkden": "https://www.linkedin.com/in/shashank-shashidhar-2958ab176/"
+      },
+      {
+        "Name": "Jot Singh Bindra",
+        "Discord": "jot_sb03",
+        "Wing": "AI/ML",
+        "Role": "Member",
+        "github": "https://github.com/jot_s_bindra",
+        "gitavatar": "https://avatars.githubusercontent.com/jot_s_bindra",
+        "linkden": "https://www.linkedin.com/in/jot-singh-bindra-60133824b/"
+      },
+      {
+        "Name": "Tanay Falor",
+        "Discord": "12 12#0318",
+        "Wing": "AI/ML",
+        "Role": "Member",
+        "github": "https://github.com/breakthe-rule",
+        "gitavatar": "https://avatars.githubusercontent.com/breakthe-rule",
+        "linkden": "https://www.linkedin.com/in/tanay-falor-a94802253?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+      },
+      {
+        "Name": "Atharva Gadekar ",
+        "Discord": "_ethix_#0",
+        "Wing": "Web Development ",
+        "Role": "Coordinator ",
+        "github": "https://github.com/atharva-gadekar",
+        "gitavatar": "https://avatars.githubusercontent.com/atharva-gadekar"
+      },
+      {
+        "Name": "Aman Karnawat",
+        "Discord": "unknownsoul",
+        "Wing": "Design",
+        "Role": "Coordinator ",
+        "github": "https://github.com/karnawataman",
+        "gitavatar": "https://avatars.githubusercontent.com/karnawataman"
+      },
+      {
+        "Name": "Sushant thakur",
+        "Discord": "sushant3233",
+        "Wing": "Cybersecurity ",
+        "Role": "Coordinator ",
+        "github": "https://github.com/sushantk1274 ",
+        "gitavatar": "https://avatars.githubusercontent.com/sushantk1274 "
+      },
+      {
+        "Name": "Ishaan Oberoi",
+        "Discord": "ishaan_oberoi",
+        "Wing": "CC Wing",
+        "Role": "Coordinator ",
+        "github": "https://github.com/Ishaan23o",
+        "gitavatar": "https://avatars.githubusercontent.com/Ishaan23o"
+      },
+      {
+        "Name": "Prakriti Vashishtha ",
+        "Discord": "Prakriti#5547",
+        "Wing": "AppD",
+        "Role": "Coordinator ",
+        "github": "https://github.com/Prakriti-19",
+        "gitavatar": "https://avatars.githubusercontent.com/Prakriti-19"
+      },
+      {
+        "Name": "Pranav Tiwari",
+        "Discord": "gammamicrowave#0000",
+        "Wing": "Web Development",
+        "Role": "Coordinator",
+        "github": "https://github.com/GammaMicrowave",
+        "gitavatar": "https://avatars.githubusercontent.com/GammaMicrowave"
+      },
+      {
+        "Name": "Atharv Badgujar ",
+        "Discord": "jotarokujo9740",
+        "Wing": "FOSS",
+        "Role": "Coordinator",
+        "github": "https://github.com/Atharv23m",
+        "gitavatar": "https://avatars.githubusercontent.com/Atharv23m"
+      },
+      {
+        "Name": "Sibasish Behera",
+        "Discord": "fangedhamster",
+        "Wing": "FOSS",
+        "Role": "Coordinator",
+        "github": "https://github.com/TheRealSibasishBehera",
+        "gitavatar": "https://avatars.githubusercontent.com/TheRealSibasishBehera"
+      },
+      {
+        "Name": "Saishree Kouda",
+        "Discord": "Saishree1402",
+        "Wing": "Design",
+        "Role": "Coordinator",
+        "github": "https://github.com/Saishreekouda",
+        "gitavatar": "https://avatars.githubusercontent.com/Saishreekouda"
+      },
+      {
+        "Name": "Koshal",
+        "Discord": "cosmonaut",
+        "Wing": "Cyber security",
+        "Role": "Coordinator",
+        "gitavatar": "https://avatars.githubusercontent.com/undefined"
+      },
+      {
+        "Name": "Pavitra Pandey",
+        "Discord": "hdelic#6900",
+        "Wing": "CC Wing",
+        "Role": "Coordinator",
+        "github": "https://github.com/pvtrpndy",
+        "gitavatar": "https://avatars.githubusercontent.com/pvtrpndy"
+      },
+      {
+        "Name": "Himanshu Shekhar",
+        "Discord": "shekharh433",
+        "Wing": "CC Wing",
+        "Role": "Coordinator",
+        "github": "https://github.com/Himanshu276330",
+        "gitavatar": "https://avatars.githubusercontent.com/Himanshu276330"
+      },
+      {
+        "Name": "Tanmay Garg",
+        "Discord": "tanmay.g",
+        "Wing": "Blockchain",
+        "Role": "Coordinator",
+        "github": "https://github.com/Tan-Code-may",
+        "gitavatar": "https://avatars.githubusercontent.com/Tan-Code-may"
+      },
+      {
+        "Name": "Priyadarshini Roy",
+        "Discord": "tsunami5307",
+        "Wing": "Blockchain",
+        "Role": "Coordinator",
+        "github": "https://github.com/tsunami03",
+        "gitavatar": "https://avatars.githubusercontent.com/tsunami03"
+      },
+      {
+        "Name": "Suhail Khan",
+        "Discord": "marshadowz",
+        "Wing": "App Development ",
+        "Role": "Coordinator",
+        "github": "https://github.com/SuhailAhmadKhan",
+        "gitavatar": "https://avatars.githubusercontent.com/SuhailAhmadKhan"
+      },
+      {
+        "Name": "Vamsi K",
+        "Discord": "sunny7712",
+        "Wing": "AI/ML",
+        "Role": "Coordinator",
+        "github": "https://github.com/sunny7712",
+        "gitavatar": "https://avatars.githubusercontent.com/sunny7712"
+      },
+      {
+        "Name": "Devendra Kayande",
+        "Discord": "MysticShadow427",
+        "Wing": "AI /ML",
+        "Role": "Coordinator",
+        "github": "https://github.com/MysticShadow427",
+        "gitavatar": "https://avatars.githubusercontent.com/MysticShadow427"
+      },
+      {
+        "Name": "shashank Patil ",
+        "Discord": "shashank_patil_28 ",
+        "Wing": "WebD",
+        "Role": "member",
+        "github": "https://github.com/shashankpatil28",
+        "gitavatar": "https://avatars.githubusercontent.com/shashankpatil28",
+        "linkden": "https://www.linkedin.com/in/shashank-patil-b2711b250"
+      }
 ]
+  
