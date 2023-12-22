@@ -11,3 +11,31 @@ window.addEventListener("scroll",function(){
 moveToTop.addEventListener("click",function(){
     window.scrollTo({top:0,behavior:"smooth"});
 })
+
+fetch('data/mentors.json')
+.then(response => response.json())
+.then(data => generateMentorCards(data))
+.catch(error => console.error('Error fetching mentor data:', error));
+
+function generateMentorCards(mentorsData) {
+const mentorSection = document.getElementById('container');
+
+mentorsData.forEach((mentor) => {
+  const card = document.createElement('div');
+  card.classList.add('mentorcard');
+  card.innerHTML = `
+    <img src="${mentor.gitavatar}" class="image">
+    <div class="project-name">
+        <h3>${mentor.Name}</h3>
+    </div>
+    <div>
+        <h6 class="mentor-discord">${mentor.Discord}</h6>
+        <h4 class="about-mentor">${mentor.Wing} - ${mentor.Role}</h4>
+    </div>
+    <div class="github">
+        <a href="${mentor.github}" target="_blank"><i class="fab fa-github"></i></a>
+    </div>
+  `;
+  mentorSection.appendChild(card);
+});
+}
