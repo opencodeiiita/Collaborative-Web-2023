@@ -1,112 +1,112 @@
 [
     {   "image":"images/collaborative.jpg",
-        "name": "Collaborative Web 2023",
-        "description": "Opencode'23 Collaborative website!",
+        "name": "A website made by contributors to showcase the OpenCode event.",
+        "description": "Collaborative website!",
         "repo-url": "https://github.com/opencodeiiita/Collaborative-Web-2023/"
     },
     {
         "name": "DEresume",
-        "description": "Opencode'23 DEresume Validating Resume using Ethereum and Polygon!",
+        "description": "DEresume Validating Resume using Ethereum and Polygon!",
         "repo-url": "https://github.com/opencodeiiita/DEresume/"
     },
     {
         "name": "Medical-Image-Classification",
-        "description": "Opencode'23 Medical-Image-Classification using CNN (Python)!",
+        "description": "Medical-Image-Classification using CNN (Python)!",
         "repo-url": "https://github.com/opencodeiiita/Medical-Image-Classification/"
     },
     {
         "name": "Lets-Design-4.0",
-        "description": "Opencode'23 Graphic Designing Task (Adobe and Figma)!",
+        "description": "Graphic Designing Task (Adobe and Figma)!",
         "repo-url": "https://github.com/opencodeiiita/Lets-Design-4.0/"
     },
     {
         "name": "FitLife",
-        "description": "Opencode'23 UI/UX in mobile app design (Figma, FigJam, Adobe Illustrator)!",
+        "description": "UI/UX in mobile app design (Figma, FigJam, Adobe Illustrator)!",
         "repo-url": "https://github.com/opencodeiiita/FitLife/"
     },
     {
         "name": "GoGit-3.0",
-        "description": "Opencode'23 Learn Basis of Git and Github!",
+        "description": "Learn Basis of Git and Github!",
         "repo-url": "https://github.com/opencodeiiita/GoGit-3.0/"
     },
     {
         "name": "Vision-1.0",
-        "description": "Opencode'23 To Learn UI Tasks (Figma)!",
+        "description": "To Learn UI Tasks (Figma)!",
         "repo-url": "https://github.com/opencodeiiita/Vision-1.0/"
     },
     {
         "name": "EasyExit",
-        "description": "Opencode'23 project which aims to simplify the process of issuing, approval and verification of GatePass for college students! (female contibutors)",
+        "description": "project which aims to simplify the process of issuing, approval and verification of GatePass for college students! (female contibutors)",
         "repo-url": "https://github.com/opencodeiiita/EasyExit/"
     },
     {
         "name": "CyberRepo-2077",
-        "description": "Opencode'23 Introduction to Cybersecurity!",
+        "description": "Introduction to Cybersecurity!",
         "repo-url": "https://github.com/opencodeiiita/CyberRepo-2077/"
     },
     {
         "name": "Text-It",
-        "description": "Opencode'23 A beginner-friendly chat app (Kotlin)!",
+        "description": "A beginner-friendly chat app (Kotlin)!",
         "repo-url": "https://github.com/opencodeiiita/Text-It/"
     },
     {
         "name": "Code-Digger-2023",
-        "description": "Opencode'23 The Competitive Programming repository!",
+        "description": "The Competitive Programming repository!",
         "repo-url": "https://github.com/opencodeiiita/Code-Digger-2023/"
     },
     {
         "name": "GrepIt-Backend",
-        "description": "Opencode'23 Quiz-hosting application to create quizzes, extensively utilising websockets!",
+        "description": "Quiz-hosting application to create quizzes, extensively utilising websockets!",
         "repo-url": "https://github.com/opencodeiiita/GrepIt-Backend/"
     },
     {
         "name": "GrepIt-Frontend",
-        "description": "Opencode'23 A dynamic trivia platform for mastering bash commands, HTML tags, JS keywords, and more!",
+        "description": "A dynamic trivia platform for mastering bash commands, HTML tags, JS keywords, and more!",
         "repo-url": "https://github.com/opencodeiiita/GrepIt-Frontend/"
     },
     {
         "name": "Scoop-Frontend",
-        "description": "Opencode'23 Website Revolutionising campus journallism",
+        "description": "Website Revolutionising campus journallism",
         "repo-url": "https://github.com/opencodeiiita/Scoop-Frontend/"
     },
     {
         "name": "Hitch-Frontend",
-        "description": "Opencode'23 Website for Bridging Conversations, Building Communities!",
+        "description": "Website for Bridging Conversations, Building Communities!",
         "repo-url": "https://github.com/opencodeiiita/Hitch-Frontend/"
     },
     {
         "name": "Scoop-Backend",
-        "description": "Opencode'23 Backend for Revolutionising campus journallism!",
+        "description": "Backend for Revolutionising campus journallism!",
         "repo-url": "https://github.com/opencodeiiita/Scoop-Backend/"
     },
     {
         "name": "TechTerra",
-        "description": "Opencode'23 UI/UX for a Tech Website!",
+        "description": "UI/UX for a Tech Website!",
         "repo-url": "https://github.com/opencodeiiita/TechTerra/"
     },
     {
         "name": "Hitch-Backend",
-        "description": "Opencode'23 Backend for Bridging Conversations, Building Communities",
+        "description": "Backend for Bridging Conversations, Building Communities",
         "repo-url": "https://github.com/opencodeiiita/Hitch-Backend/"
     },
     {
         "name": "Donation-App",
-        "description": "Opencode'23 A flutter based donation app!",
+        "description": "A flutter based donation app!",
         "repo-url": "https://github.com/opencodeiiita/Donation-App/"
     },
     {
         "name": "YADD",
-        "description": "Opencode'23 Yet Another DDoS Detector (Python)",
+        "description": "Yet Another DDoS Detector (Python)",
         "repo-url": "https://github.com/opencodeiiita/YADD/"
     },
     {
         "name": "GeekHaven-Community-App",
-        "description": "Opencode'23 App for managing all the projects and task for all the Geekhaven members!",
+        "description": "App for managing all the projects and task for all the Geekhaven members!",
         "repo-url": "https://github.com/opencodeiiita/GeekHaven-Community-App/"
     },
     {
         "name": "WasteBucks",
-        "description": "Opencode'23 Android app for smart waste management system with a reward based incentive system.",
+        "description": "Android app for smart waste management system with a reward based incentive system.",
         "repo-url": "https://github.com/opencodeiiita/WasteBucks/"
     }
 ]
