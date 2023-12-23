@@ -20,6 +20,10 @@ body{
 	max-width: 1170px;
 	margin:auto;
 }
+#footer{
+	background: linear-gradient(#174444, #1b4a47, #132222);
+
+}
 .row{
 	display: flex;
 	flex-wrap: wrap;
