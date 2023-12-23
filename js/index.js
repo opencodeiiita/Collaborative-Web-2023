@@ -25,13 +25,14 @@ mentorsData.forEach((mentor) => {
   card.classList.add('mentorcard');
   card.innerHTML = `
     <img src="${mentor.gitavatar}" class="image">
-    <div class="project-name">
+
+    <div class="mentor-name">
         <h3>${mentor.Name}</h3>
     </div>
-    <div>
-        <h6 class="mentor-discord">${mentor.Discord}</h6>
-        <h4 class="about-mentor">${mentor.Wing} - ${mentor.Role}</h4>
-    </div>
+    
+    <h6 class="mentor-discord">${mentor.Discord}</h6>
+    <h3 class="wing-mentor">${mentor.Wing} </h4> 
+    <h4 class="role-mentor">${mentor.Role}</h4> 
     <div class="github">
         <a href="${mentor.github}" target="_blank"><i class="fab fa-github"></i></a>
     </div>
