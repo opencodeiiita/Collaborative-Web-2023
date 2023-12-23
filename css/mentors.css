@@ -29,10 +29,16 @@
     justify-content: center;
 
 }
-.about-mentor{
+.wing-mentor{
+    font-size:16px;
     color:#00CF90;
     margin-top: 15px;
-    font-weight: 100px;
+    font-weight: 1000;
+}
+.role-mentor{
+    font-size:15px;
+    color:#00CF90;
+    font-weight: 200;
 }
 .mentor-discord{
     color:#B7E7D9;
@@ -40,20 +46,26 @@
 }
 .mentorcard {
     background-color: rgba(217, 217, 217, 0.2);
-  
     width: 230px;
-    margin: 25px 25px;
-    justify-content: center;
+    margin: 25px ;
     text-align: center;
     transition: 0.3s ease;
     height: 19rem;
-    justify-content: center;
     padding: 4px 10px;
     border-radius: 10px;
 }
 .mentorcard:hover {
-      box-shadow: 0px 40px 56px rgba(8, 157, 60, 0.1);
+    box-shadow: 0px 40px 56px rgba(8, 157, 60, 0.1);
     transition: 0.3s;
+}
+.mentor-name {
+    color: rgba(255, 255, 255, 1);
+}
+.mentor-name h3 {
+    font-size: 19px;
+    font-family: "Kufam", sans-serif;
+    color: #00cf90;
+    font-weight: 500;
 }
 @media screen and (max-width:615px){
 #container{
