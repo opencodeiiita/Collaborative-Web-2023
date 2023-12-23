@@ -1,5 +1,21 @@
-[
-  {
+[ 
+      {
+        "Name": "Manas Gupta ",
+        "Discord": "manas24.",
+        "Wing": "Overall",
+        "Role": "Coordinator",
+        "github": "https://github.com/Manas2403",
+        "gitavatar": "https://avatars.githubusercontent.com/Manas2403"
+      },
+      {
+        "Name": "Anurag Jain ",
+        "Discord": "buddylonglegs",
+        "Wing": "Overall",
+        "Role": "Coordinator",
+        "github": "https://github.com/BuddyLongLegs",
+        "gitavatar": "https://avatars.githubusercontent.com/BuddyLongLegs"
+      },
+      {
         "Name": "Atharva Gadekar ",
         "Discord": "_ethix_#0",
         "Wing": "Web Development ",
