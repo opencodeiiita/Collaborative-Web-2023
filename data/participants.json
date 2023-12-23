@@ -1,4 +1,4 @@
-[
+d[
     {
       "name": "Deepanshu Negi",
       "imageurl": "https://th.bing.com/th/id/OIP.CvMAeJSHI_WeUIJD8x32QAHaEZ?rs=1&pid=ImgDetMain",
@@ -937,5 +937,14 @@
    "github": "https://github.com/abhisheksharma010",
    "twitter": "https://twitter.com/___Introvert_",
    "referral": ""
-},
+},{
+   "name": "Keshav Khetan",
+   "imageurl": "",
+   "about": "Hello, I'm contributor",
+   "college": "Indian Institute Of Information Technology Allahabad",
+   "facebook": "https://www.instagram.com/keshav__khetan_/",
+   "github": "https://github.com/keshavkhetan123",
+   "twitter": "",
+   "referral": ""
+}
 ]
