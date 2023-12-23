@@ -7,7 +7,8 @@
     /* background: rgb(2,0,36); */
     /* background: linear-gradient(#0C1717, #17403E, #132222); */
     padding: 0px 0px;
-    height: 700px;
+    height: 100vh;
+    background: linear-gradient(#0C1717, #17403E, #132222);
 }
 
 #about-section .logo {

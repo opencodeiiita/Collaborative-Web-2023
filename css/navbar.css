@@ -1,97 +1,105 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     /* background:  linear-gradient(50deg, black, #498b88,black);; */
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 4px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 4px 4px 4px 0px rgba(0, 0, 0, 0.25) inset; */
 }
-.navbar{
-    position: relative;
-    width:100%;
+
+.navbar {
+    position: fixed; /* Change to fixed */
+    top: 0; /* Add this line */
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding:0 20px;
+    padding: 0 20px;
+    background: linear-gradient(#0C1717, #071615, #132222);
+    z-index: 3; /* Add z-index to keep it above other elements */
 }
-.eventname{
+
+.eventname {
     margin-top: 15px;
     display: block;
-    width:254px;
-    height:37px;
+    width: 254px;
+    height: 37px;
     color: #00CF90;
-
     font-family: Kufam;
     font-size: 35px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-}    
-.navigationbar{
+}
+
+.navigationbar {
     /* border: 2px solid red; */
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.menu{
+
+.menu {
     /* margin-top: 17px; */
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
-.menu li{
+
+.menu li {
     list-style: none;
-
 }
-.menu li a{
-   
-display: block;
-color: white;
-padding:40px 20px;
-text-decoration: none;
-transition: 0.4s;
-font-family: Inter;
-font-size: 13px;
-font-style: normal;
-font-weight: 700;   
+
+.menu li a {
+    display: block;
+    color: white;
+    padding: 40px 20px;
+    text-decoration: none;
+    transition: 0.4s;
+    font-family: Inter;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
     /* line-height: 1; */
 }
-.menu li a:hover{
+
+.menu li a:hover {
     color: #00CF90;
 }
 
-
-.hamburger{
-    
+.hamburger {
     position: relative;
-    width:30px;
-    height:3px;
+    width: 30px;
+    height: 3px;
     background-color: #00CF90;
     cursor: pointer;
     z-index: 2;
     transition: 0.4s;
-
 }
-.hamburger:before,.hamburger:after{
+
+.hamburger:before,
+.hamburger:after {
     content: "";
     position: absolute;
-    height:3px;
-    right:0;
+    height: 3px;
+    right: 0;
     background-color: #00CF90;
     border-radius: 10px;
     transition: 0.4s;
 }
-.hamburger:before{
-    top:-10px;
-    width:30px;
 
-}
-.hamburger:after{
-    top:10px;
+.hamburger:before {
+    top: -10px;
     width: 30px;
 }
-.toggle{
+
+.hamburger:after {
+    top: 10px;
+    width: 30px;
+}
+
+.toggle {
     position: absolute;
     width: 30px;
     z-index: 6;
@@ -99,63 +107,65 @@ font-weight: 700;
     height: 100%;
     opacity: 0;
 }
-.hamburger,.toggle{
+
+.hamburger,
+.toggle {
     display: none;
 }
-.navigationbar input:checked ~.hamburger{
-    background:transparent;
+
+.navigationbar input:checked~.hamburger {
+    background: transparent;
 }
-.navigationbar input:checked ~.hamburger:before{
-    top:0;
+
+.navigationbar input:checked~.hamburger:before {
+    top: 0;
     transform: rotate(-45deg);
     color: yellow;
-
 }
-.navigationbar input:checked ~.hamburger:after{
-    top:0;
+
+.navigationbar input:checked~.hamburger:after {
+    top: 0;
     transform: rotate(45deg);
-    color:white;
-
+    color: white;
 }
-.navigationbar input:checked ~.menu{
+
+.navigationbar input:checked~.menu {
     /* display: block; */
     /* transition: 2s; */
-    opacity:1;
+    opacity: 1;
     transition: 0.5s;
 }
-@media screen and (max-width:986px){
-    .hamburger,.toggle{
+
+@media screen and (max-width: 986px) {
+    .hamburger,
+    .toggle {
         display: block;
         z-index: 5;
-    
     }
-    .menu{
-    
+
+    .menu {
         z-index: 4;
         justify-content: start;
         flex-direction: column;
         align-items: center;
         position: fixed;
-        top:0px;
-        right:0;
-        opacity:0;
-        /* display: none; */
+        top: 70px; /* Adjust top value to account for the fixed navbar */
+        right: 0;
+        opacity: 0;
         background-color: #245a57;
-        width:300px;
-        height:100%;
-        padding-top:70px;
+        width: 300px;
+        height: 100%;
+        padding-top: 70px;
         box-shadow: 2px 20px 50px black;
-        /* border-radius: 20px; */
     }
-    .menu li{
+
+    .menu li {
         width: 100%;
-    
     }
-    .menu li a{
+
+    .menu li a {
         padding: 30px;
         font-size: 28px;
-        
-        box-shadow: 0 1px 0 rgba(255, 255, 255, 0.126)inset ;
+        box-shadow: 0 1px 0 rgba(255, 255, 255, 0.126) inset;
     }
-    
 }

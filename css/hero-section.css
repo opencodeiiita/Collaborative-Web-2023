@@ -4,9 +4,10 @@
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-between;
-    /* background: rgb(2,0,36); */
+        background: linear-gradient(#0C1717, #17403E, #132222);
+
     padding: 20px 20px;
-    height: 700px;
+    height: 100vh;
 }
 
 #hero-section .logo {
@@ -46,6 +47,7 @@
         flex-direction: column;
         text-align: center;
         padding: 10px 10px;
+        margin-top: 50px;
         height: 350px;
     }
 
@@ -69,3 +71,4 @@
         margin-bottom: 10px;
     }
 }
+
