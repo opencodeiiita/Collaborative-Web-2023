@@ -4,12 +4,9 @@
     background: linear-gradient(#0C1717, #17403E, #132222);
 }
 #mentor-content{
-
-    /* display: flex; */
     justify-content: center;
     align-items: center;
     text-align: center;
-    /* margin-top:60px; */
     padding-top: 50px;
 }
 #mentor-content h1{
@@ -24,104 +21,55 @@
     line-height: 19.5px;
     margin:auto;
     text-align: center;
-
 }
 #container{
-    
     margin:0 30px;
     margin-top:50px ;
-    /* border:solid black; */
-    /* border-radius: 30px; */
-    /* box-shadow: 10px 10px 10px; */
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 
 }
-.prodbox{
-    background-color:rgba(217, 217, 217, 0.2);
-    /* border:solid rgb(161, 158, 158); */
-    /* border-radius: 50px; */
-    width:230px;
-    margin:25px 25px;
-justify-content: center;
-text-align: center;
-/* box-shadow: 5px 5px 5px; */
-transition:0.3s ease;
-height:24rem;
-justify-content: center;
+.wing-mentor{
+    font-size:16px;
+    color:#00CF90;
+    margin-top: 15px;
+    font-weight: 1000;
 }
-.prodbox:hover{
-    box-shadow: 10px 10px 10px;
+.role-mentor{
+    font-size:15px;
+    color:#00CF90;
+    font-weight: 200;
+}
+.mentor-discord{
+    color:#B7E7D9;
+    margin-top:-6px;
+}
+.mentorcard {
+    background-color: rgba(217, 217, 217, 0.2);
+    width: 230px;
+    margin: 25px ;
+    text-align: center;
+    transition: 0.3s ease;
+    height: 19rem;
+    padding: 4px 10px;
+    border-radius: 10px;
+}
+.mentorcard:hover {
+    box-shadow: 0px 40px 56px rgba(8, 157, 60, 0.1);
     transition: 0.3s;
 }
-.prodbox{
-    /* text-align: start; */
-    padding: 4px 10px;
-}
-.mentor-pics{
-
-    height:180px;
-margin:10px 10px;
-padding-top: 10px;
-padding-bottom:1px;
-border-radius: 50%;
-}
-.mentordetails h3{
-    font-size: 25px;
-    font-family: 'Kufam', sans-serif;
-    color: #00CF90;
-    font-weight: 400;
-    filter: drop-shadow(2px 3px 5px rgba(0,0,0,0.5));
-}
-.position{
-    font-size: 14px;
-    font-weight: 400;
-    filter: drop-shadow(2px 3px 5px rgba(0,0,0,0.5));
-}
-.collegename{
-    font-size: 10px;
-    font-weight:  400;
-    filter: drop-shadow(2px 3px 5px rgba(0,0,0,0.5));
-}
-.mentordetails{
-    text-shadow:5px 10px 20px rgba(0,0,0,0.25);
+.mentor-name {
     color: rgba(255, 255, 255, 1);
-
-    font-weight: 100;
 }
-.socialmedia{
-    font-size: 1.7rem;
-    height:40px;
-    /* border: 2px solid black; */
-    align-items: center;
-    justify-content: space-between;
-    /* width: 100px; */
-}
-.sociallogo{
-    margin: auto 10px;
-
-
-}
-.profilebutton{
-    text-decoration: none;
-    color:white;
-}
-.gotoprofilebtn{
-    margin-top: 10px;
-    width:155px;
-    height: 25px;
-    color:white;
-    background-color: #00CF90;
+.mentor-name h3 {
+    font-size: 19px;
+    font-family: "Kufam", sans-serif;
+    color: #00cf90;
+    font-weight: 500;
 }
 @media screen and (max-width:615px){
-.prodbox{
-    /* width:40%; */
-    margin:25px 15px;
-}
 #container{
-    /* margin:0 8px; */
-    /* border:2px solid black; */
     justify-content: space-between;
 
 }
@@ -135,32 +83,11 @@ border-radius: 50%;
     #container{
         justify-content: center;
     }
-    .prodbox{
-        /* border: 2px solid black; */
-        width:200px;
-        margin:25px 20px;
-    }
 }
 @media screen and (min-width:350px) and (max-width:545px)
 {
     #container{
         margin-left: 0px;
-margin-right: 0px;
-        /* justify-content: space-between; */
-    }
-    .prodbox{
-
-        width:175px;
-        /* margin:25px 5px; */
-        padding-left: 0px;
-        margin-right:4px;
-        margin-left: 4px;
-    }
-}
-@media screen and (min-width:454px) and (max-width:540px)
-{
-    .prodbox{
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-right: 0px;
     }
 }
