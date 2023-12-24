@@ -5,106 +5,127 @@
         "repo-url": "https://github.com/opencodeiiita/Collaborative-Web-2023/"
     },
     {
+        "image":"images/Deresume.png",
         "name": "DEresume",
         "description": "DEresume Validating Resume using Ethereum and Polygon!",
         "repo-url": "https://github.com/opencodeiiita/DEresume/"
     },
     {
+        "image":"images/mic.jpg",
         "name": "Medical-Image-Classification",
         "description": "Medical-Image-Classification using CNN (Python)!",
         "repo-url": "https://github.com/opencodeiiita/Medical-Image-Classification/"
     },
     {
+        "image":"images/letsdesign.png",
         "name": "Lets-Design-4.0",
         "description": "Graphic Designing Task (Adobe and Figma)!",
         "repo-url": "https://github.com/opencodeiiita/Lets-Design-4.0/"
     },
     {
+        "image":"images/fitlife.jpeg",
         "name": "FitLife",
         "description": "UI/UX in mobile app design (Figma, FigJam, Adobe Illustrator)!",
         "repo-url": "https://github.com/opencodeiiita/FitLife/"
     },
     {
+        "image":"images/gogit.png",
         "name": "GoGit-3.0",
         "description": "Learn Basis of Git and Github!",
         "repo-url": "https://github.com/opencodeiiita/GoGit-3.0/"
     },
     {
+        "image":"images/vision.png",
         "name": "Vision-1.0",
         "description": "To Learn UI Tasks (Figma)!",
         "repo-url": "https://github.com/opencodeiiita/Vision-1.0/"
     },
     {
+        "image":"images/easyexit.svg",
         "name": "EasyExit",
         "description": "project which aims to simplify the process of issuing, approval and verification of GatePass for college students! (female contibutors)",
         "repo-url": "https://github.com/opencodeiiita/EasyExit/"
     },
     {
+        "image":"images/cyberrepo.jpg",
         "name": "CyberRepo-2077",
         "description": "Introduction to Cybersecurity!",
         "repo-url": "https://github.com/opencodeiiita/CyberRepo-2077/"
     },
     {
+        "image":"images/textit.jpg",
         "name": "Text-It",
         "description": "A beginner-friendly chat app (Kotlin)!",
         "repo-url": "https://github.com/opencodeiiita/Text-It/"
     },
     {
+        "image":"images/codedigger.png",
         "name": "Code-Digger-2023",
         "description": "The Competitive Programming repository!",
         "repo-url": "https://github.com/opencodeiiita/Code-Digger-2023/"
     },
     {
+        "image":"images/grepitbackend.svg",
         "name": "GrepIt-Backend",
         "description": "Quiz-hosting application to create quizzes, extensively utilising websockets!",
         "repo-url": "https://github.com/opencodeiiita/GrepIt-Backend/"
     },
     {
+        "image":"images/grepitfrontend.svg",
         "name": "GrepIt-Frontend",
         "description": "A dynamic trivia platform for mastering bash commands, HTML tags, JS keywords, and more!",
         "repo-url": "https://github.com/opencodeiiita/GrepIt-Frontend/"
     },
     {
+        "image":"images/scoopfrontend.jpg",
         "name": "Scoop-Frontend",
         "description": "Website Revolutionising campus journallism",
         "repo-url": "https://github.com/opencodeiiita/Scoop-Frontend/"
     },
     {
+        "image":"images/hitchfrontend.jpg",
         "name": "Hitch-Frontend",
         "description": "Website for Bridging Conversations, Building Communities!",
         "repo-url": "https://github.com/opencodeiiita/Hitch-Frontend/"
     },
     {
+        "image":"images/scoopbackend.jpeg",
         "name": "Scoop-Backend",
         "description": "Backend for Revolutionising campus journallism!",
         "repo-url": "https://github.com/opencodeiiita/Scoop-Backend/"
     },
     {
+        "image":"images/techterra.jpg",
         "name": "TechTerra",
         "description": "UI/UX for a Tech Website!",
         "repo-url": "https://github.com/opencodeiiita/TechTerra/"
     },
     {
+        "image":"images/hitchbackend.svg",
         "name": "Hitch-Backend",
         "description": "Backend for Bridging Conversations, Building Communities",
         "repo-url": "https://github.com/opencodeiiita/Hitch-Backend/"
     },
     {
+        "image":"images/donationapp.jpg",
         "name": "Donation-App",
         "description": "A flutter based donation app!",
         "repo-url": "https://github.com/opencodeiiita/Donation-App/"
     },
     {
+        "image":"images/yadd.png",
         "name": "YADD",
         "description": "Yet Another DDoS Detector (Python)",
         "repo-url": "https://github.com/opencodeiiita/YADD/"
     },
     {
+        "image":"images/gh.png",
         "name": "GeekHaven-Community-App",
         "description": "App for managing all the projects and task for all the Geekhaven members!",
         "repo-url": "https://github.com/opencodeiiita/GeekHaven-Community-App/"
     },
     {
+        "image":"images/wastebucks.png",
         "name": "WasteBucks",
         "description": "Android app for smart waste management system with a reward based incentive system.",
         "repo-url": "https://github.com/opencodeiiita/WasteBucks/"
