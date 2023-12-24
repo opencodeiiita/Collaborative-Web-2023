@@ -1,119 +1,112 @@
-#leader_content{
-    color: white;
-    margin-top: 45px;
-    /* margin-bottom: 10px; */
-    margin-left: 30px;
-    /* border: 2px solid red; */
-    top:50px;
-    font-size: 30px;
-    font-weight: 700;
-    text-align: center;
-}
-#leadercontainer{
-    margin-top: 10px;
-    /* margin-top:50px ; */
-    border:solid white;
-    border-radius: 10px;
-    /* box-shadow: 10px 10px 10px; */
-    /* display: flex; */
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    width:80vw;
-    margin:0 auto;
-
-
-}
-.participant{
-    display: flex;
-    background: #869695;
-
-    /* border:solid rgb(161, 158, 158); */
-    /* border-radius: 50px; */
-    /* width:90%; */
-    /* margin:25px 25px; */
-    align-items: center;
-justify-content: space-between;
-/* text-align: center; */
-/* box-shadow: 5px 5px 5px; */
-transition:0.3s ease;
-height:3rem;
-/* justify-content: center; */
-/* padding:0px 3px ; */
-margin:3px 0px;
-
-}
-.particdetails{
-    text-align: center;
-    align-items: center;
-    color: white;
-    margin: 0;
-    padding: 10px 10px;
-    font-weight: 500;
-    width:15vw;
-    /* border: 2px solid blue; */
-}
-.partici_icon{
-    border-radius: 50%;
-    object-fit: cover;
-    height:40px;
-    width: 40px;
-    /* border: 2px solid red; */
-    background-color: transparent;
-}
-.points{
-    font-weight: 100;
-    display:flex ;
-    /* border: 2px solid red; */
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    /* padding: 0px 0px; */
-    /* margin: 0px; */
-}
-.pointsicon{
-    margin-left: 5px;
-}
-.totalpoints{
-font-weight: 500;
+#leaderboard {
+  padding: 100px 0px;
+  background: linear-gradient(#132222, #17403e, #0c1717);
 }
 
-.participant:nth-child(1)
-{
-    background:rgba(43, 74, 73, 1);
-    /* margin: auto 10px; */
-    padding: 0 5px;
+#leader_content {
+  color: white;
+  /* margin-top: 45px; */
+  /* margin-bottom: 10px; */
+  margin-left: 30px;
+  /* border: 2px solid red; */
+  top: 50px;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
 }
-.participant:nth-child(2)
-{
-    background: rgba(9, 40, 39, 1);
+#leadercontainer {
+  margin-top: 10px;
+  /* margin-top:50px ; */
+  border: solid white;
+  border-radius: 10px;
+  /* box-shadow: 10px 10px 10px; */
+  /* display: flex; */
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 80vw;
+  margin: 0 auto;
+}
+.participant {
+  display: flex;
+  background: #869695;
 
+  /* border:solid rgb(161, 158, 158); */
+  /* border-radius: 50px; */
+  /* width:90%; */
+  /* margin:25px 25px; */
+  align-items: center;
+  justify-content: space-between;
+  /* text-align: center; */
+  /* box-shadow: 5px 5px 5px; */
+  transition: 0.3s ease;
+  height: 3rem;
+  /* justify-content: center; */
+  /* padding:0px 3px ; */
+  margin: 3px 0px;
 }
-.participant:nth-child(3){
-    background: rgba(25, 54, 53, 1);
+.particdetails {
+  text-align: center;
+  align-items: center;
+  color: white;
+  margin: 0;
+  padding: 10px 10px;
+  font-weight: 500;
+  width: 15vw;
+  /* border: 2px solid blue; */
+}
+.partici_icon {
+  border-radius: 50%;
+  object-fit: cover;
+  height: 40px;
+  width: 40px;
+  /* border: 2px solid red; */
+  background-color: transparent;
+}
+.points {
+  font-weight: 100;
+  display: flex;
+  /* border: 2px solid red; */
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  /* padding: 0px 0px; */
+  /* margin: 0px; */
+}
+.pointsicon {
+  margin-left: 5px;
+}
+.totalpoints {
+  font-weight: 500;
+}
 
+.participant:nth-child(1) {
+  background: rgba(43, 74, 73, 1);
+  /* margin: auto 10px; */
+  padding: 0 5px;
 }
-.participant:nth-child(4)
-{
-    background: rgba(33, 71, 70, 1);
-
+.participant:nth-child(2) {
+  background: rgba(9, 40, 39, 1);
 }
-@media screen and (max-width:1074px)
-{
-    .participant{
-        font-size: 15px;
-    }
+.participant:nth-child(3) {
+  background: rgba(25, 54, 53, 1);
 }
-@media screen and (max-width:810px) and (min-width:600px)
-{
-    .participant{
-        font-size: 13px;
-    }
+.participant:nth-child(4) {
+  background: rgba(33, 71, 70, 1);
 }
-@media screen and (max-width:600px)
-{
-    .participant{
-        font-size: 10px;
-        /* font-weight: 1000; */
-    }
+@media screen and (max-width: 1074px) {
+  .participant {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 810px) and (min-width: 600px) {
+  .participant {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .participant {
+    font-size: 10px;
+    /* font-weight: 1000; */
+  }
 }

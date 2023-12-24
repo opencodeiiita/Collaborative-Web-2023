@@ -1,93 +1,88 @@
-#mentors{
-    /* border: 2px solid black; */
-    margin-top: 100px;
-    background: linear-gradient(#0C1717, #17403E, #132222);
+#mentors {
+  /* border: 2px solid black; */
+  background: linear-gradient(#0c1717, #17403e, #132222);
 }
-#mentor-content{
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding-top: 50px;
+#mentor-content {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 50px;
 }
-#mentor-content h1{
-    color:  #00CF90;
-    font-family: 'Kufam', sans-serif;
-    font-weight: 400;
-    font-size: 40px;
+#mentor-content h1 {
+  color: #00cf90;
+  font-family: "Kufam", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
 }
-#mentor-content p{
-    color:white;
-    font-weight: 400;
-    line-height: 19.5px;
-    margin:auto;
-    text-align: center;
+#mentor-content p {
+  color: white;
+  font-weight: 400;
+  line-height: 19.5px;
+  margin: auto;
+  text-align: center;
 }
-#container{
-    margin:0 30px;
-    margin-top:50px ;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-
+#container {
+  margin: 0 30px;
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
-.wing-mentor{
-    font-size:16px;
-    color:#00CF90;
-    margin-top: 15px;
-    font-weight: 1000;
+.wing-mentor {
+  font-size: 16px;
+  color: #00cf90;
+  margin-top: 15px;
+  font-weight: 1000;
 }
-.role-mentor{
-    font-size:15px;
-    color:#00CF90;
-    font-weight: 200;
+.role-mentor {
+  font-size: 15px;
+  color: #00cf90;
+  font-weight: 200;
 }
-.mentor-discord{
-    color:#B7E7D9;
-    margin-top:-6px;
+.mentor-discord {
+  color: #b7e7d9;
+  margin-top: -6px;
 }
 .mentorcard {
-    background-color: rgba(217, 217, 217, 0.2);
-    width: 230px;
-    margin: 25px ;
-    text-align: center;
-    transition: 0.3s ease;
-    height: 19rem;
-    padding: 4px 10px;
-    border-radius: 10px;
+  background-color: rgba(217, 217, 217, 0.2);
+  width: 230px;
+  margin: 25px;
+  text-align: center;
+  transition: 0.3s ease;
+  height: 19rem;
+  padding: 4px 10px;
+  border-radius: 10px;
 }
 .mentorcard:hover {
-    box-shadow: 0px 40px 56px rgba(8, 157, 60, 0.1);
-    transition: 0.3s;
+  box-shadow: 0px 40px 56px rgba(8, 157, 60, 0.1);
+  transition: 0.3s;
 }
 .mentor-name {
-    color: rgba(255, 255, 255, 1);
+  color: rgba(255, 255, 255, 1);
 }
 .mentor-name h3 {
-    font-size: 19px;
-    font-family: "Kufam", sans-serif;
-    color: #00cf90;
-    font-weight: 500;
+  font-size: 19px;
+  font-family: "Kufam", sans-serif;
+  color: #00cf90;
+  font-weight: 500;
 }
-@media screen and (max-width:615px){
-#container{
+@media screen and (max-width: 615px) {
+  #container {
     justify-content: space-between;
-
-}
-#mentor-content p{
+  }
+  #mentor-content p {
     font-size: 15px;
     width: 304px;
+  }
 }
-} 
-@media screen and (min-width:350px) and (max-width:580px)
-{
-    #container{
-        justify-content: center;
-    }
+@media screen and (min-width: 350px) and (max-width: 580px) {
+  #container {
+    justify-content: center;
+  }
 }
-@media screen and (min-width:350px) and (max-width:545px)
-{
-    #container{
-        margin-left: 0px;
-        margin-right: 0px;
-    }
+@media screen and (min-width: 350px) and (max-width: 545px) {
+  #container {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
 }
