@@ -10,6 +10,16 @@
       "referral": ""
    },
    {
+      "name": "Parth Revanwar",
+      "imageurl": "",
+      "about": "Hello, I'm a beginer in flutter development",
+      "college": "IIITA",
+      "facebook": "",
+      "github": "",
+      "twitter": "",
+      "referral": ""
+   },
+   {
       "name": "Anmol Sinha",
       "imageurl": "https://example.com/your-avatar.jpg",
       "about": "Hello, I'm a web developer",
