@@ -1,6 +1,9 @@
 #mentors {
   /* border: 2px solid black; */
-  background: linear-gradient(#0c1717, #17403e, #132222);
+  /* background: linear-gradient(#0c1717, #17403e, #132222); */
+  background: linear-gradient(#234343, #18433F, #112020);
+  
+
 }
 #mentor-content {
   justify-content: center;

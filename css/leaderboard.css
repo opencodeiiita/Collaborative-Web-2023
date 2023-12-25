@@ -1,6 +1,9 @@
 #leaderboard {
   padding: 100px 0px;
-  background: linear-gradient(#132222, #17403e, #0c1717);
+  background: linear-gradient(#031717, #112e2d, #132222);
+
+  /* background: linear-gradient(#1a462f, #0e5a49, #17403E); */
+
 }
 
 #leader_content {

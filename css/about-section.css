@@ -8,7 +8,17 @@
   /* background: linear-gradient(#0C1717, #17403E, #132222); */
   padding: 0px 0px;
   height: 100vh;
-  background: linear-gradient(#132222, #17403e, #0c1717);
+  /* background: linear-gradient(#FF6F61, #FFD166, #6B4226); */
+  /* background: linear-gradient(#1a462f, #0e5a49, #17403E); */
+  /* background: linear-gradient(#112525, #16403d, #132222); */
+  z-index: 1;
+
+  background: linear-gradient(#031717, #112e2d, #132222);
+
+
+  /* background: linear-gradient(#428C65, #226556, #17403E); */
+
+
 }
 
 #about-section .logo {
