@@ -135,6 +135,10 @@ body {
     opacity: 1;
     transition: 0.5s;
 }
+.menu a.active {
+    color: #00CF90;
+    /* color: white; */
+}
 
 @media screen and (max-width: 986px) {
     .hamburger,

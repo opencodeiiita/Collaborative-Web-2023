@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 :root {
   --background: #24262b;
-  --boldtext: #ffffff;
-  --iconbg: #565759;
+  --boldtext: #00CF90;
+  --iconbg: #ffffff;
   --h4font: 18px;
 }
 
@@ -20,7 +20,7 @@ body {
   margin: auto;
 }
 #footer {
-  background: #132222;
+  background: #091616;
 }
 .row {
   display: flex;
