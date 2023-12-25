@@ -16,8 +16,11 @@ body {
   box-sizing: border-box;
 }
 .container {
-  max-width: 1170px;
-  margin: auto;
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
 }
 #footer {
   background: #091616;
@@ -25,6 +28,7 @@ body {
 .row {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 ul {
   list-style: none;
@@ -45,7 +49,7 @@ footer {
   padding: 70px 0;
 }
 .footer-col {
-  width: 25%;
+  /* width: 25%; */
   padding: 0 15px;
 }
 .footer-col h4 {
@@ -119,13 +123,23 @@ footer {
 
 /*responsive*/
 @media (max-width: 767px) {
-  .footer-col {
-    width: 50%;
-    margin-bottom: 30px;
+  .container{
+    flex-direction: column;
   }
+  .footer-col {
+    /* width: 100%; */
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .logo p {
+    padding-left: 40px;
 }
-@media (max-width: 574px) {
-  .footer-col {
-    width: 100%;
-  }
+.logo h5{
+  padding-left: 20px;
+}
+  
+  
 }
