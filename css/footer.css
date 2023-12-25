@@ -109,6 +109,13 @@ footer {
 .bottom p{
 	text-align: center;
 } */
+#footer .copyright {
+  margin-top: 40px; 
+  color: #bbbbbb; 
+  font-size: 1.2rem; 
+  text-align: center; 
+}
+
 
 /*responsive*/
 @media (max-width: 767px) {

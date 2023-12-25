@@ -3,16 +3,19 @@ body{
     overflow: auto;
     /* background: linear-gradient(#0C1717, #17403E, #132222); */
 }
-#moveToTop{
-    border-radius: 50%;
-    height:55px;
-    width:55px;
+#moveToTop {
+    border: 1px solid rgb(2, 148, 2); /* Set the border color to green */
+    border-radius: 50%; 
+    height: 55px;
+    width: 55px;
     position: fixed;
-    bottom:-100px;
-    right:15px;
-    cursor:pointer;
+    bottom: -100px;
+    right: 15px;
+    cursor: pointer;
 }
-#imageArrow{
-    height:40px;
-    width:35px;
+
+#imageArrow {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
