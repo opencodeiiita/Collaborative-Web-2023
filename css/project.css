@@ -42,6 +42,8 @@
   transition: 0.3s ease;
   height: 24rem;
   justify-content: center;
+  position: relative;
+
 }
 .card:hover {
     box-shadow: 0px 40px 56px rgba(8, 157, 60, 0.1);
@@ -59,7 +61,7 @@
   border-radius: 50%;
 }
 .project-name h3 {
-  font-size: 25px;
+  font-size: 22px;
   font-family: "Kufam", sans-serif;
   color: #00cf90;
   font-weight: 400;
@@ -71,6 +73,9 @@
   font-weight: 400;
   text-align: left;
   color: #B7E7D9;
+  word-break: break-all;
+  margin-left: 4px;
+  margin-right: 4px;
 }
 
 .project-name {
@@ -78,13 +83,16 @@
   font-weight: 100;
 }
 
-.github {
+.github_project {
   
   font-size: 20px;
   margin-top: 10px;
   margin-bottom: 10px;
+  position: absolute;
+  bottom: 0px;
+  left:40%;
 }
-.github a{
+.github_project a{
 	display: inline-block;
 	height: 40px;
 	width: 40px;
@@ -95,14 +103,15 @@
 	border-radius: 50%;
 	color: #00cf90;
 	transition: all 0.5s ease;
+  vertical-align: bottom;
 }
-.github a:hover{
+.github_project a:hover{
 	color: rgb(255, 255, 255);
 	background-color: #00cf90;
 }
 
 
-@media screen and (max-width: 615px) {
+@media screen and (max-width: 625px) {
   .card {
     margin: 25px 15px;
   }
@@ -130,10 +139,10 @@
     margin-right: 0px;
   }
   .card {
-    width: 175px;
+    width: 250px;
     padding-left: 0px;
-    margin-right: 4px;
-    margin-left: 4px;
+    margin-right: 8px;
+    margin-left: 8px;
   }
 }
 @media screen and (min-width: 454px) and (max-width: 540px) {
