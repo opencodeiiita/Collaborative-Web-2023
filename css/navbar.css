@@ -24,7 +24,9 @@ body {
 }
 
 .eventname {
-  margin-top: 15px;
+  margin: 10px 0px;
+  /* margin-top: 10px;
+  margin-bottom: 10px; */
   display: block;
   width: 254px;
   height: 37px;
@@ -156,18 +158,19 @@ body {
     flex-direction: column;
     align-items: center;
     position: fixed;
-    top: 70px; /* Adjust top value to account for the fixed navbar */
+    top: 57px; /* Adjust top value to account for the fixed navbar */
     right: 0;
     opacity: 0;
     background-color: #245a57;
-    width: 300px;
+    width: 100%;
     height: 100%;
-    padding-top: 70px;
+    /* padding-top: 70px; */
     box-shadow: 2px 20px 50px black;
   }
 
   .menu li {
     width: 100%;
+    background-color: #245a57;
   }
 
   .menu li a {

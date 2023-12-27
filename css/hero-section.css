@@ -1,77 +1,91 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&family=Kufam&family=Oswald&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Kufam&family=Oswald&display=swap");
 #hero-section {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: space-between;
-        /* background: linear-gradient(#0C1717, #17403E, #132222); */
-        /* background: linear-gradient(#112020, #18433F, #132222); */
-        background-attachment: fixed;
-        background-position: center;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* background: linear-gradient(#0C1717, #17403E, #132222); */
+  /* background: linear-gradient(#112020, #18433F, #132222); */
+  background-attachment: fixed;
+  background-position: center;
 
-    padding: 20px 20px;
-    height: 100vh;
+  padding: 20px 20px;
+  height: 100vh;
 }
 
 #hero-section .logo {
-    width: 50%;
-    height: auto;
-    text-align: center;
+  width: 50%;
+  height: auto;
+  text-align: center;
 }
 
 #hero-section .content {
-    width: 50%;
-    text-align: left;
-    font-family: 'Kufam', sans-serif;
+  width: 50%;
+  text-align: left;
+  font-family: "Kufam", sans-serif;
 }
 
 #hero-section h1 {
-    font-size: 2em;
-    margin-bottom: 20px;
-    color: #B7E7D9;
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #b7e7d9;
 }
 
 #hero-section button {
-    padding: 10px 20px;
-    font-size: 1em;
-    background-color: #498B88; 
-    color: #FFFFFF; 
-    border: none;
-    cursor: pointer;
-    width: 30%;
-    border-radius: 10px;
-    font-family: 'Kufam', sans-serif;
-    box-shadow: 0px 4px 4px 0px #00000040;
-    box-shadow: 4px 4px 4px 0px #00000040 inset;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 1em;
+  background-color: #498b88;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  border-radius: 8px;
+  font-family: "Kufam", sans-serif;
+  box-shadow: 0px 4px 4px 0px #00000040;
+  /* box-shadow: 4px 4px 4px 0px #00000040 inset; */
 }
 
 @media (max-width: 768px) {
-    #hero-section {
-        flex-direction: column;
-        text-align: center;
-        padding: 10px 10px;
-        margin-top: 50px;
-        height: 350px;
-    }
+  #hero-section {
+    flex-direction: column;
+    text-align: center;
+    padding: 10px 10px;
+    margin-top: 50px;
+    height: 350px;
+  }
 
-    #hero-section .content {
-        max-width: 100%;
-    }
+  #hero-section .content {
+    max-width: 100%;
+    /* width: 100%; */
+  }
 
-    #hero-section button {
-        padding: 5px 10px;
-        font-size: 1em;
-        width: 80%;
-    }
+  #hero-section button {
+    /* padding: 5px 10px; */
+    font-size: 1em;
+    width: 50%;
+  }
 
-    .logo img{
-        height: 175px;
-        width: 175px;
-    }
+  .logo img {
+    height: 175px;
+    width: 175px;
+  }
 
-    #hero-section h1 {
-        font-size: 1em;
-        margin-bottom: 10px;
-    }
+  #hero-section h1 {
+    font-size: 1em;
+    margin-bottom: 10px;
+  }
 }
 
+@media (max-width: 540px) {
+  #hero-section button {
+    width: 70%;
+  }
+}
+
+#hero-section button:hover {
+  background-color: #499894;
+}
+#hero-section button:active {
+  box-shadow: 4px 4px 4px 0px #00000040 inset;
+}

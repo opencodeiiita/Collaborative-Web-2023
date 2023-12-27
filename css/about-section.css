@@ -15,10 +15,7 @@
 
   /* background: linear-gradient(#031717, #112e2d, #132222); */
 
-
   /* background: linear-gradient(#428C65, #226556, #17403E); */
-
-
 }
 
 #about-section .logo {
@@ -55,11 +52,11 @@
   color: #ffffff;
   border: none;
   cursor: pointer;
-  width: 30%;
-  border-radius: 10px;
+  width: 50%;
+  border-radius: 8px;
   font-family: "Kufam", sans-serif;
   box-shadow: 0px 4px 4px 0px #00000040;
-  box-shadow: 4px 4px 4px 0px #00000040 inset;
+  /* box-shadow: 4px 4px 4px 0px #00000040 inset; */
 }
 
 #timer {
@@ -112,9 +109,9 @@
   }
 
   #about-section button {
-    padding: 5px 10px;
+    /* padding: 5px 10px; */
     font-size: 1em;
-    width: 70%;
+    /* width: 70%; */
     margin: auto;
   }
 
@@ -149,4 +146,17 @@
     font-family: "Kufam", sans-serif;
     color: #ffffff;
   }
+}
+
+@media (max-width: 540px) {
+  #about-section button {
+    width: 50%;
+  }
+}
+
+#about-section button:hover {
+  background-color: #499894;
+}
+#about-section button:active {
+  box-shadow: 4px 4px 4px 0px #00000040 inset;
 }
