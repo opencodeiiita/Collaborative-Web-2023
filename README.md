@@ -99,6 +99,13 @@ We will follow the official GitHub documentation for setting up the repo.
 * Add relevant commit message in the pr, mention issue number and live link to comment while making pr.
 * **Note**: In case you feel any issue during setting up the project or using git, don't hesitate to ask us on our slack channel. We will help you out.
 
+### Installing Node.js
+
+To install Node.js on your local machine, follow these steps:
+
+- Download the Node.js installer from the official website.
+- Run the installer and follow the prompts to complete the installation.
+- To verify that Node.js has been successfully installed, open a terminal window and type `node -v`. This should print the current version of Node.js that you have installed.
 
 ### Running the project
 
@@ -108,8 +115,11 @@ We will follow the official GitHub documentation for setting up the repo.
 `cd [REPO_NAME]`
 - Install the `live server` extension in VS Code.
 - Run `index.html` with live server.
-  
+- Install the necessary npm packages by running `npm install`. This will install all of the packages listed in the dependencies section of the package.json file.
+- Run the project using `npm start`. This will start the application and should display a message in the terminal indicating that the server is running.
+- Control click on the link which the terminal will provide you to view your site.
 
+  
 ## Guidelines and Best practices
 
 Please help us follow the best practice to make it easy for the reviewer as well as the contributor. We want to focus on the code quality more than on managing pull request ethics.
