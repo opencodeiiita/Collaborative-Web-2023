@@ -1,7 +1,7 @@
 [
     {   "image":"images/collaborative.jpg",
-        "name": "A website made by contributors to showcase the OpenCode event.",
-        "description": "Collaborative website!",
+        "name": "Collaborative website!",
+        "description": "A website made by contributors to showcase the OpenCode event.",
         "repo-url": "https://github.com/opencodeiiita/Collaborative-Web-2023/"
     },
     {
@@ -71,7 +71,7 @@
         "repo-url": "https://github.com/opencodeiiita/GrepIt-Backend/"
     },
     {
-        "image":"images/grepitfrontend.svg",
+        "image":"images/grepitfrontend.jpg",
         "name": "GrepIt-Frontend",
         "description": "A dynamic trivia platform for mastering bash commands, HTML tags, JS keywords, and more!",
         "repo-url": "https://github.com/opencodeiiita/GrepIt-Frontend/"
@@ -113,7 +113,7 @@
         "repo-url": "https://github.com/opencodeiiita/Donation-App/"
     },
     {
-        "image":"images/yadd.png",
+        "image":"images/yadd.jpg",
         "name": "YADD",
         "description": "Yet Another DDoS Detector (Python)",
         "repo-url": "https://github.com/opencodeiiita/YADD/"
@@ -125,7 +125,7 @@
         "repo-url": "https://github.com/opencodeiiita/GeekHaven-Community-App/"
     },
     {
-        "image":"images/wastebucks.png",
+        "image":"images/wastebucket.png",
         "name": "WasteBucks",
         "description": "Android app for smart waste management system with a reward based incentive system.",
         "repo-url": "https://github.com/opencodeiiita/WasteBucks/"
