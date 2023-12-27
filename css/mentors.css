@@ -69,6 +69,31 @@
   color: #00cf90;
   font-weight: 500;
 }
+.github {
+  
+  font-size: 20px;
+  margin-top: 30px;
+  bottom: 50px;
+  left:50%;
+}
+.github a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(79, 210, 105, 0.117);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #00cf90;
+	transition: all 0.5s ease;
+  vertical-align: bottom;
+}
+.github a:hover{
+	color: rgb(255, 255, 255);
+	background-color: #00cf90;
+}
+
 @media screen and (max-width: 615px) {
   #container {
     justify-content: space-between;
