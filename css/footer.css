@@ -91,7 +91,7 @@ footer {
   display: inline-block;
   height: 40px;
   width: 40px;
-  background-color: var(--iconbg);
+  background-color: rgba(79, 210, 105, 0.117);
   margin: 0 10px 10px 0;
   text-align: center;
   line-height: 40px;
