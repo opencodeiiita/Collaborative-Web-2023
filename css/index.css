@@ -21,7 +21,7 @@ body {
   }
 }
 #moveToTop {
-  border: 1px solid rgb(2, 148, 2); /* Set the border color to green */
+  border: 1px solid #00cf90; /* Set the border color to green */
   border-radius: 50%;
   height: 55px;
   width: 55px;
