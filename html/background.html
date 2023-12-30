@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>    
+        body{
+        background-color: rgb(20,20,20);
+        height: 100vh;
+        overflow: hidden;
+        margin: 0px;
+        }
+        #tiles{
+        height: 100vh;
+        width: 100vw;
+        display: grid;
+        grid-template-columns: repeat(var(--columns),1fr);
+        grid-template-rows: repeat(var(--rows),1fr);
+        }
+        .tile{
+        outline: 1px solid white;
+        opacity: 50%;
+        }
+</style>
+<script>
+            document.addEventListener("DOMContentLoaded", function() {
+        let columns= Math.floor(document.body.clientWidth/50);
+        let rows= Math.floor(document.body.clientHeight/50);
+        
+        const wrapper = document.getElementById("tiles");
+
+        const createTile = index => {
+            const tile = document.createElement("div");
+            tile.classList.add("tile");
+            tile.addEventListener("mouseover", () => {
+                tile.style.backgroundColor = "green";
+            });
+            tile.addEventListener("mouseout", () => {
+                tile.style.backgroundColor = "";
+            });
+            return tile;
+        }
+
+        const createTiles = quantity =>{
+            Array.from(Array(quantity)).map((tile, index)=>{
+                wrapper.appendChild(createTile(index));
+            })
+        }
+        const  createGrid = () =>{
+            wrapper.innerHTML ="";
+            columns = Math.floor(document.body.clientWidth/50);
+            rows = Math.floor(document.body.clientHeight/50);
+            wrapper.style.setProperty("--columns",columns);
+            wrapper.style.setProperty("--rows",rows);
+            createTiles(columns* rows);
+            console.log(rows);
+            console.log(columns);
+        }
+        createGrid();
+        window.onresize = () => createGrid();
+});
+</script>
+<body>
+        <div id="tiles" class="tile"></div>
+</body>
+</html>
