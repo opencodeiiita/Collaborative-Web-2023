@@ -21,7 +21,6 @@
 #wrapper {
   margin: 0 30px;
   margin-top: 50px;
-
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -29,7 +28,7 @@
 .card {
   background-color: rgba(217, 217, 217, 0.2);
 
-  width: 230px;
+  width: 220px;
   margin: 25px 25px;
   justify-content: center;
   text-align: center;
