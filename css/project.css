@@ -1,10 +1,3 @@
-#projects {
-  /* border: 2px solid black; */
-  /* margin-top: 100px; */
-  /* background: linear-gradient(#0c1717, #17403e, #132222); */
-  /* background: linear-gradient(#234343, #18433F, #112020); */
-
-}
 #project-div {
   justify-content: center;
   align-items: center;
@@ -16,6 +9,7 @@
   font-family: "Kufam", sans-serif;
   font-weight: 400;
   font-size: 40px;
+  margin-top: 50px;
 }
 #project-div p {
   color: white;
