@@ -34,7 +34,7 @@
   text-align: center;
   transition: 0.3s ease;
   height: 24rem;
-  justify-content: center;
+  border-radius: 10px;
   position: relative;
 
 }
@@ -48,6 +48,7 @@
 }
 .image {
   height: 90px;
+  width: 85px;
   margin: 10px 10px;
   padding-top: 10px;
   padding-bottom: 1px;
