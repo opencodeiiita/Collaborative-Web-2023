@@ -27,7 +27,7 @@
 }
 .card {
   background-color: rgba(217, 217, 217, 0.2);
-
+  backdrop-filter: blur(10px);
   width: 220px;
   margin: 25px 25px;
   justify-content: center;
@@ -36,10 +36,9 @@
   height: 24rem;
   border-radius: 10px;
   position: relative;
-
 }
 .card:hover {
-    box-shadow: 0px 40px 56px rgba(8, 157, 60, 0.1);
+  box-shadow: 0px 40px 56px rgba(8, 157, 60, 0.1);
   transition: 0.3s;
 }
 .card {
@@ -59,15 +58,14 @@
   font-family: "Kufam", sans-serif;
   color: #00cf90;
   font-weight: 400;
-  padding:0px 10px;
-
+  padding: 0px 10px;
 }
 .about-project {
-    margin-top: 25px;
+  margin-top: 25px;
   font-size: 14px;
   font-weight: 400;
   text-align: left;
-  color: #B7E7D9;
+  color: #b7e7d9;
   word-break: break-all;
   margin-left: 4px;
   margin-right: 4px;
@@ -80,39 +78,36 @@
 }
 
 .github_project {
-  
   font-size: 20px;
   margin-top: 10px;
   margin-bottom: 10px;
   position: absolute;
   bottom: 0px;
-  left:40%;
+  left: 40%;
 }
-.github_project a{
-	display: inline-block;
-	height: 40px;
-	width: 40px;
-	background-color: rgba(79, 210, 105, 0.117);
-	margin:0 10px 10px 0;
-	text-align: center;
-	line-height: 40px;
-	border-radius: 50%;
-	color: #00cf90;
-	transition: all 0.5s ease;
+.github_project a {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(79, 210, 105, 0.117);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #00cf90;
+  transition: all 0.5s ease;
   vertical-align: bottom;
 }
-.github_project a:hover{
-	color: rgb(255, 255, 255);
-	background-color: #00cf90;
+.github_project a:hover {
+  color: rgb(255, 255, 255);
+  background-color: #00cf90;
 }
-
 
 @media screen and (max-width: 625px) {
   .card {
     margin: 25px 15px;
   }
   #container {
-
     justify-content: space-between;
   }
   #project-div p {
