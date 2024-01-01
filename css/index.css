@@ -2,8 +2,7 @@ body {
   --d: 3000px;
   --angle: 120deg;
   overflow: auto;
-  /* background: linear-gradient(#0C1717, #17403E, #132222); */
-  /* background: repeating-linear-gradient(#0c1717, #17403e, #132222, #0c1717); */
+
   background: repeating-linear-gradient(
     var(--angle),
     #0c1717,
@@ -13,6 +12,48 @@ body {
   );
   background-size: calc(var(--d) / sin(var(--angle))) 100%;
   animation: AnimationName 5s linear infinite reverse;
+  /* height: 100vh; */
+  /* overflow: hidden; */
+  overflow-x: hidden;
+  margin: 0px;
+}
+
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -5;
+  /* background-color: rgb(20, 20, 20); */
+}
+.tile-active {
+  background-color: #00cf90;
+  opacity: 100% !important;
+  scale: 1.2;
+  border-radius: 2px;
+}
+
+#tiles {
+  z-index: -1;
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: repeat(var(--columns), 1fr);
+  grid-template-rows: repeat(var(--rows), 1fr);
+  /* gap: 20px; */
+  opacity: 0.5;
+}
+.tile {
+  z-index: -1;
+  /* outline: 1px solid white; */
+  /* background-color: rgba(255, 255, 255, 0.5); */
+  /* background-color: red; */
+
+  /* outline: 1px solid#00cf90; */
+  border: 1px solid #00cf90;
+  opacity: 50%;
+  transition: 1s ease-in-out;
 }
 
 @keyframes AnimationName {

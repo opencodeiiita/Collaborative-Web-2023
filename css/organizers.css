@@ -43,6 +43,7 @@
 }
 .organizer-card {
   background-color: rgba(217, 217, 217, 0.2);
+  backdrop-filter: blur(10px);
   width: 230px;
   margin: 25px;
   text-align: center;
