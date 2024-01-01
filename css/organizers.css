@@ -1,102 +1,89 @@
 #organizers-content {
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding-top: 50px;
-  }
-  #organizers-content h1 {
-    color: #00cf90;
-    font-family: "Kufam", sans-serif;
-    font-weight: 400;
-    font-size: 40px;
-    margin-top: 50px;
-  }
-  #organizers-content p {
-    color: white;
-    font-weight: 400;
-    line-height: 19.5px;
-    margin: auto;
-    text-align: center;
-  }
-  #organizers-container {
-    margin: 0 30px;
-    margin-top: 50px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  .wing-organizer {
-    font-size: 16px;
-    color: #00cf90;
-    margin-top: 15px;
-    font-weight: 1000;
-  }
-  .role-organizer {
-    font-size: 15px;
-    color: #00cf90;
-    font-weight: 100;
-  }
-  .organizer-discord {
-    color: #b7e7d9;
-    margin-top: -6px;
-    font-size: 12px;
-  }
-  .organizer-card {
-    background-color: rgba(217, 217, 217, 0.2);
-    width: 230px;
-    margin: 25px;
-    text-align: center;
-    transition: 0.3s ease;
-    height:21rem;
-    padding: 4px 10px;
-    border-radius: 10px;
-    position: relative;
-  }
-  .organizer-card:hover {
-    box-shadow: 0px 40px 56px rgba(8, 157, 60, 0.1);
-    transition: 0.3s;
-  }
-  .organizer-gitavatar{
-    
-        height: 90px;
-        margin: 10px 10px;
-        padding-top: 10px;
-        padding-bottom: 1px;
-        border-radius: 50%;
-      
-      
-  }
-  .organizername {
-    font-size: 19px;
-    font-family: "Kufam", sans-serif;
-    color: #00cf90;
-    font-weight: 500;
-  }
- 
-    .github {
-        font-size: 20px;
-        margin-top: 30px;
-        text-align: center;
-        position: absolute;
-        transform: translateX(-50%);
-      }
-      
-      .github a {
-        display: inline-block;
-        height: 40px;
-        width: 40px;
-        background-color: rgba(79, 210, 105, 0.117);
-        margin: 10px;
-        text-align: center;
-        line-height: 40px;
-        border-radius: 50%;
-        color: #00cf90;
-        transition: all 0.5s ease;
-      }
-      
-      .github a:hover {
-        color: rgb(255, 255, 255);
-        background-color: #00cf90;
-      }
-      
-  
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 50px;
+}
+#organizers-content h1 {
+  color: #00cf90;
+  font-family: "Kufam", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  margin-top: 50px;
+}
+#organizers-content p {
+  color: white;
+  font-weight: 400;
+  line-height: 19.5px;
+  margin: auto;
+  text-align: center;
+}
+#organizers-container {
+  margin: 0 30px;
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.wing-organizer {
+  font-size: 16px;
+  color: #00cf90;
+  margin-top: 15px;
+  font-weight: 1000;
+}
+.role-organizer {
+  font-size: 15px;
+  color: #00cf90;
+  font-weight: 100;
+}
+.organizer-discord {
+  color: #b7e7d9;
+  margin-top: -6px;
+  font-size: 12px;
+}
+.organizer-card {
+  background-color: rgba(217, 217, 217, 0.2);
+  width: 230px;
+  margin: 25px;
+  text-align: center;
+  transition: 0.3s ease;
+  height: 21rem;
+  padding: 4px 10px;
+  border-radius: 10px;
+  position: relative;
+}
+.organizer-card:hover {
+  box-shadow: 0px 40px 56px rgba(8, 157, 60, 0.1);
+  transition: 0.3s;
+}
+.organizer-gitavatar {
+  height: 90px;
+  margin: 10px 10px;
+  padding-top: 10px;
+  padding-bottom: 1px;
+  border-radius: 50%;
+}
+.organizername {
+  font-size: 19px;
+  font-family: "Kufam", sans-serif;
+  color: #00cf90;
+  font-weight: 500;
+}
+
+.github a {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(79, 210, 105, 0.117);
+  margin: 10px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #00cf90;
+  transition: all 0.5s ease;
+}
+
+.github a:hover {
+  color: rgb(255, 255, 255);
+  background-color: #00cf90;
+}
