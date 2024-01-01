@@ -59,6 +59,7 @@
   font-family: "Kufam", sans-serif;
   color: #00cf90;
   font-weight: 400;
+  padding:0px 10px;
 
 }
 .about-project {
@@ -70,6 +71,7 @@
   word-break: break-all;
   margin-left: 4px;
   margin-right: 4px;
+  padding: 5px 15px;
 }
 
 .project-name {
