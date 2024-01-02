@@ -4,7 +4,7 @@ const mentorShowAllButton = document.getElementById("mentors-show-more");
 document.addEventListener("DOMContentLoaded", populateMentors);
 
 mentorShowAllButton.addEventListener("click", () => {
-    mentorShowAll = true;
+  mentorShowAll = true;
   mentorShowAllButton.classList.add("no-display");
   populateMentors();
 });
@@ -16,20 +16,20 @@ function populateMentors() {
   }
 
   fetch("data/mentors.json")
-  .then((response) => response.json())
-  .then((data) => generateMentorCards(data))
-  .catch((error) => console.error("Error fetching mentor data:", error));
+    .then((response) => response.json())
+    .then((data) => generateMentorCards(data))
+    .catch((error) => console.error("Error fetching mentor data:", error));
 }
 
 function generateMentorCards(mentorsData) {
   const mentorSection = document.getElementById("container");
   mentorSection.innerHTML = "";
 
-    const numLength = mentorsData.length;
-    const numMentors = mentorShowAll ? numLength : 6;
+  const numLength = mentorsData.length;
+  const numMentors = mentorShowAll ? numLength : 6;
 
-    for(let i = 0; i < numMentors; i++) {
-        const mentor = mentorsData[i];
+  for (let i = 0; i < numMentors; i++) {
+    const mentor = mentorsData[i];
 
     const card = document.createElement("div");
     card.classList.add("mentorcard");
@@ -48,5 +48,5 @@ function generateMentorCards(mentorsData) {
     </div>
   `;
     mentorSection.appendChild(card);
-  };
+  }
 }

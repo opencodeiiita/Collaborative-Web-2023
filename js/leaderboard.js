@@ -1,4 +1,3 @@
-
 fetch("https://events-api.geekhaven.in/api/v1/events//Opencode'23/leaderboard")
   .then((response) => response.json())
   .then((data) => generateLeaderboardRows(data.data))

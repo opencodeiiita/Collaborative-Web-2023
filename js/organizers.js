@@ -10,31 +10,27 @@ showAllButton.addEventListener("click", () => {
 });
 
 function populateOrganizers() {
-    
   // Check if the screen width is more than 900px
   if (window.innerWidth > 900) {
     showAll = true;
   }
 
-    fetch("data/organisers.json")
-      .then((response) => response.json())
-      .then((organizers) => {
-    
-        const container = document.getElementById("organizers-container");
-        container.innerHTML = "";
-        
-        const numLength = organizers.length;
-        const numOrganizers = showAll ? numLength : 6;
-        
-        for (let i = 0; i < numOrganizers; i++) {
-          const organizer = organizers[i];
+  fetch("data/organisers.json")
+    .then((response) => response.json())
+    .then((organizers) => {
+      const container = document.getElementById("organizers-container");
+      container.innerHTML = "";
 
-          
-          const card = document.createElement("div");
-          card.className = "organizer-card";
-  
-          
-          card.innerHTML = `
+      const numLength = organizers.length;
+      const numOrganizers = showAll ? numLength : 6;
+
+      for (let i = 0; i < numOrganizers; i++) {
+        const organizer = organizers[i];
+
+        const card = document.createElement("div");
+        card.className = "organizer-card";
+
+        card.innerHTML = `
             <img src="${organizer.gitavatar}" class="organizer-gitavatar" alt="${organizer.Name}'s Avatar" >
             <h2 class="organizername">${organizer.Name}</h2>
             <p class="organizer-discord">${organizer.Discord}</p>
@@ -45,11 +41,9 @@ function populateOrganizers() {
             </div>
              
           `;
-  
-          
-          container.appendChild(card);
-        }
-      })
-      .catch((error) => console.error("Error fetching data:", error));
-  };
-  
+
+        container.appendChild(card);
+      }
+    })
+    .catch((error) => console.error("Error fetching data:", error));
+}
