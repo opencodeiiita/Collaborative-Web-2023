@@ -31,7 +31,7 @@
   width: 50%;
   text-align: left;
   font-family: "Kufam", sans-serif;
-  padding: 40px;
+  padding-left: 90px
 }
 
 #about-section h1 {
@@ -45,6 +45,7 @@
   font-size: 1em;
   margin-bottom: 20px;
   font-weight: 400;
+  text-align: justify;
   color: #b7e7d9;
 }
 
@@ -114,7 +115,7 @@
   #about-section button {
     padding: 5px 10px;
     font-size: 1em;
-    width: 70%;
+    width: 40%;
     margin: auto;
   }
 
