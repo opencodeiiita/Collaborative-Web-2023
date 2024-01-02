@@ -13,6 +13,7 @@ function populateMentors() {
   // Check if the screen width is more than 900px
   if (window.innerWidth > 900) {
     mentorShowAll = true;
+    mentorShowAllButton.classList.add("no-display");
   }
 
   fetch("data/mentors.json")

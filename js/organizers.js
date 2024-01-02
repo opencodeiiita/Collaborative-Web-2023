@@ -13,6 +13,7 @@ function populateOrganizers() {
   // Check if the screen width is more than 900px
   if (window.innerWidth > 900) {
     showAll = true;
+    showAllButton.classList.add("no-display");
   }
 
   fetch("data/organisers.json")
