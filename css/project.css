@@ -21,7 +21,6 @@
 #wrapper {
   margin: 0 30px;
   margin-top: 50px;
-
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -29,13 +28,13 @@
 .card {
   background-color: rgba(217, 217, 217, 0.2);
   backdrop-filter: blur(10px);
-  width: 230px;
+  width: 220px;
   margin: 25px 25px;
   justify-content: center;
   text-align: center;
   transition: 0.3s ease;
   height: 24rem;
-  justify-content: center;
+  border-radius: 10px;
   position: relative;
 }
 .card:hover {
@@ -48,6 +47,7 @@
 }
 .image {
   height: 90px;
+  width: 85px;
   margin: 10px 10px;
   padding-top: 10px;
   padding-bottom: 1px;

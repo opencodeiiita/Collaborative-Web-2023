@@ -120,6 +120,14 @@ footer {
   text-align: center; 
 }
 
+#footer img {
+  height: 75px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 
 /*responsive*/
 @media (max-width: 767px) {
