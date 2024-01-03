@@ -9,7 +9,7 @@ body {
 }
 
 .navbar {
-  /* position: fixed; Change to fixed */
+  position: fixed;
   top: 0; /* Add this line */
   width: 100%;
   display: flex;
