@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+#events {
+  margin-bottom: 30px;
+}
+#events-div {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 50px;
+}
+#events-div h1 {
+  color: #00cf90;
+  font-family: "Kufam", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  margin-top: 50px;
+}
+#events-wrapper {
+  margin: 0 30px;
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.event-card {
+  background-color: rgba(217, 217, 217, 0.2);
+  backdrop-filter: blur(10px);
+  width: 360px;
+  margin: 25px 25px;
+  justify-content: center;
+  text-align: center;
+  transition: 0.3s ease;
+  height: 30rem;
+  border-radius: 10px;
+  position: relative;
+  padding: 4px 10px;
+  font-family: 'Inter', sans-serif !important;
+}
+.event-card:hover {
+  box-shadow: 0px 40px 56px rgba(8, 157, 60, 0.1);
+  transition: 0.3s;
+}
+.event-image-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background-color: white;
+  width: fit-content;
+  border-radius: 10px;
+}
+
+.event-image {
+  max-width: 80px;
+}
+.event-name h3 {
+  margin-top: 25px;
+  font-size: 30px;
+  font-family: "Kufam", sans-serif;
+  color: #00cf90;
+  font-weight: 700;
+}
+.about-event {
+  font-size: 14px;
+  margin-bottom: 25px;
+  font-weight: 400;
+  color: #b7e7d9;
+  word-break: break-all;
+}
+.event-time {
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 10px;
+  border-radius: 5px;
+  padding: 5px 0;
+  margin-bottom: 30px;
+}
+.event-time h4 {
+  color: #b7e7d9;
+}
+.platform-text {
+  color: #00cf90;
+}
+.center {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.space {
+  margin-bottom: 30px;
+}
+.event-name {
+  color: rgba(255, 255, 255, 1);
+  font-weight: 100;
+}
+
+.setter-div h4 {
+  color: #b7e7d9;
+  font-weight: 400;
+}
+.github-event {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  position: absolute;
+  bottom: 0px;
+  /* left: 40%; */
+}
+.github-event a {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(79, 210, 105, 0.117);
+  margin-bottom: 10px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #00cf90;
+  transition: all 0.5s ease;
+  vertical-align: bottom;
+}
+.github-event a:hover {
+  color: rgb(255, 255, 255);
+  background-color: #00cf90;
+}
+
+@media screen and (max-width: 625px) {
+  .card {
+    margin: 25px 15px;
+  }
+  #container {
+    justify-content: space-between;
+  }
+  #events-div p {
+    font-size: 15px;
+    width: 304px;
+  }
+}
+@media screen and (min-width: 350px) and (max-width: 580px) {
+  #container {
+    justify-content: center;
+  }
+  .card {
+    width: 200px;
+    margin: 25px 20px;
+  }
+}
+@media screen and (min-width: 350px) and (max-width: 545px) {
+  #container {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .card {
+    width: 250px;
+    padding-left: 0px;
+    margin-right: 8px;
+    margin-left: 8px;
+  }
+}
+@media screen and (min-width: 454px) and (max-width: 540px) {
+  .card {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
