@@ -145,14 +145,13 @@ body {
 
 @media screen and (max-width: 986px) {
 
-  .navbar{
+  .navbar {
     display: flex;
-  }
+    justify-content: space-between;
+   }
 
   .eventname p{
-    display:flex;
-    justify-content: start;
-    font-size: 0.7em;
+    font-size: 0.6em;
   }
 
   .hamburger,
