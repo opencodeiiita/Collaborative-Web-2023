@@ -1,0 +1,26 @@
+[
+  {
+    "name": "CYBERGEEK",
+    "time": "5 DEC to 7 JAN",
+    "description": "CTF COMPETITION",
+    "platform": "images/CTFd.png",
+    "repo-url": "https://ctf.geekhaven.in/register",
+    "problem_setters": ["Sushant", "Koshal", "Devam", "Rakim"]
+  },
+  {
+    "name": "DATA-BLITZ",
+    "time": "30 DEC to 10 JAN",
+    "description": "KAGGLE COMPETITION",
+    "platform": "images/kaggle.png",
+    "repo-url": "https://www.kaggle.com/t/b7c617621d204bd4ba4e048904afc742",
+    "problem_setters": ["Vamsi", "Devendra"]
+  },
+  {
+    "name": "CODEGUERRA",
+    "time": "22 DEC, 8:00 PM to 10:00 PM",
+    "description": "COMPETITIVE CODING CONTEST",
+    "platform": "images/codeforces.jpeg",
+    "repo-url": "https://codeforces.com/contestInvitation/fbbb2bf3110f360b249aaa9225bd8348ba2e9d26",
+    "problem_setters": ["Srijan", "Agrim", "Pavitra", "Nirbhay", "Himanshu"]
+  }
+]
