@@ -144,6 +144,17 @@ body {
 }
 
 @media screen and (max-width: 986px) {
+
+  .navbar{
+    display: flex;
+  }
+
+  .eventname p{
+    display:flex;
+    justify-content: start;
+    font-size: 0.7em;
+  }
+
   .hamburger,
   .toggle {
     display: block;

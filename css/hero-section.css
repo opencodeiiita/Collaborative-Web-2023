@@ -14,14 +14,13 @@
 }
 
 #hero-section .logo {
-    width: 50%;
+    width: 100%;
     height: auto;
     text-align: center;
 }
 
 #hero-section .content {
-    width: 50%;
-    text-align: left;
+    width: 100%;
     font-family: 'Kufam', sans-serif;
 }
 
@@ -48,14 +47,13 @@
 @media (max-width: 768px) {
     #hero-section {
         flex-direction: column;
-        text-align: center;
-        padding: 10px 10px;
-        margin-top: 50px;
+        margin-top: 80px;
         height: 350px;
     }
 
     #hero-section .content {
-        max-width: 100%;
+        max-width:80%;
+        text-align: center;
     }
 
     #hero-section button {
