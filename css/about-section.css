@@ -4,21 +4,10 @@
   align-items: center;
   flex-wrap: wrap;
   justify-content: space-between;
-  /* background: rgb(2,0,36); */
-  /* background: linear-gradient(#0C1717, #17403E, #132222); */
-  padding: 150px 75px;
+  padding: 150px 25px;
   height: 100vh;
-  /* background: linear-gradient(#FF6F61, #FFD166, #6B4226); */
-  /* background: linear-gradient(#1a462f, #0e5a49, #17403E); */
-  /* background: linear-gradient(#112525, #16403d, #132222); */
   z-index: 1;
-
-  /* background: linear-gradient(#031717, #112e2d, #132222); */
-
-
-  /* background: linear-gradient(#428C65, #226556, #17403E); */
-  margin-bottom: 50px;
-
+  margin-bottom: 25px;
 }
 
 #about-section .logo {
@@ -111,6 +100,7 @@
     width: fit-content;
     padding: 20px 20px;
     margin: 20px;
+    text-align: center;
   }
 
   #about-section button {
@@ -128,6 +118,7 @@
   #about-section h1 {
     font-size: 1.5em;
     margin-bottom: 10px;
+    text-align: center;
   }
 
   #about-section h3 {
