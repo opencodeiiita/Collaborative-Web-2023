@@ -166,13 +166,12 @@ body {
     flex-direction: column;
     align-items: center;
     position: fixed;
-    top: 70px; /* Adjust top value to account for the fixed navbar */
+    top: 60px; /* Adjust top value to account for the fixed navbar */
     right: 0;
     opacity: 0;
-    background-color: #245a57;
     width: 300px;
     height: 100%;
-    padding-top: 70px;
+    /* padding-top: 70px; */
     box-shadow: 2px 20px 50px black;
   }
 
@@ -181,8 +180,9 @@ body {
   }
 
   .menu li a {
-    padding: 30px;
-    font-size: 28px;
+    padding: 3px;
+    font-size: 10px;
+    background-color: #245a57;
     box-shadow: 0 1px 0 rgba(255, 255, 255, 0.126) inset;
   }
 }
