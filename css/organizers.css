@@ -74,7 +74,7 @@
   font-weight: 500;
 }
 
-.github a {
+.socials a {
   display: inline-block;
   height: 40px;
   width: 40px;
@@ -87,7 +87,7 @@
   transition: all 0.5s ease;
 }
 
-.github a:hover {
+.socials a:hover {
   color: rgb(255, 255, 255);
   background-color: #00cf90;
 }
