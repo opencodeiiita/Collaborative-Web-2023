@@ -123,13 +123,13 @@ body {
 .navigationbar input:checked ~ .hamburger:before {
   top: 0;
   transform: rotate(-45deg);
-  color: yellow;
+  background-color: yellow; /* Use background-color instead of color */
 }
 
 .navigationbar input:checked ~ .hamburger:after {
   top: 0;
   transform: rotate(45deg);
-  color: white;
+  background-color: white; /* Use background-color instead of color */
 }
 
 .navigationbar input:checked ~ .menu {
