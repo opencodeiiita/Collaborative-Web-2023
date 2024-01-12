@@ -28,3 +28,28 @@ document.addEventListener("DOMContentLoaded", function () {
 
     onScroll();
 });
+
+document.addEventListener("DOMContentLoaded", function() {
+const links = document.querySelectorAll('.menu li a');
+
+links.forEach(link => {
+    link.addEventListener('click', function(e) {
+    e.preventDefault();
+
+    const targetId = this.getAttribute('href').substring(1);
+    const targetElement = document.getElementById(targetId);
+
+    window.scrollTo({
+        top: targetElement.offsetTop - document.querySelector('.navbar').offsetHeight,
+        behavior: 'smooth'
+    });
+
+    // Close the menu if it's open (for mobile view)
+    const toggleCheckbox = document.getElementById('menu-toggle');
+    if (toggleCheckbox.checked) {
+        toggleCheckbox.checked = false;
+    }
+    });
+});
+});
+

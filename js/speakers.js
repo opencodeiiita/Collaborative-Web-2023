@@ -53,4 +53,11 @@ function generateSpeakerCards(speakersData) {
   `;
     speakerSection.appendChild(card);
   }
+
+  const speakerCards = document.querySelectorAll('.speaker-card');
+    speakerCards.forEach((card, index) => {
+        // Set a staggered delay, e.g., 0s, 0.2s, 0.4s, etc.
+        const delay = index * 2; // Adjust this value to control the delay interval
+        card.style.animationDelay = `${delay}s`;
+    });
 }

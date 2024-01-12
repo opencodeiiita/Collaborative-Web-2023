@@ -47,4 +47,11 @@ function populateOrganizers() {
       }
     })
     .catch((error) => console.error("Error fetching data:", error));
+  
+    const organizerCards = document.querySelectorAll('.organizer-card');
+    organizerCards.forEach((card, index) => {
+        // Set a staggered delay, e.g., 0s, 0.2s, 0.4s, etc.
+        const delay = index * 5; // Adjust this value to control the delay interval
+        card.style.animationDelay = `${delay}s`;
+    });
 }
