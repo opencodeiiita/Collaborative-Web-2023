@@ -1,5 +1,15 @@
 [
   {
+    "name": "Maruthi",
+    "imageurl": "https://avatars.githubusercontent.com/u/103304179?v=4",
+    "about": "Hello, I'm a web developer",
+    "college": "Rainbow CBSE college",
+    "facebook": "https://www.facebook.com/profile.php?id=100073035641785",
+    "github": "https://github.com/MaruthiSingh",
+    "twitter": "https://twitter.com/maruthi200611",
+    "referral": "Devfolio"
+  },
+  {
     "name": "Mansi",
     "imageurl": "https://avatars.githubusercontent.com/u/107349957?v=4",
     "about": "Hello, I'm a web developer",
@@ -1035,7 +1045,7 @@
     "twitter": "",
     "referral": ""
   },
-    {
+  {
     "name": "Dharshan",
     "imageurl": "nill",
     "about": "Hello, I'm a web developer",
@@ -1044,15 +1054,15 @@
     "github": "https://github.com/dark-dragon01",
     "twitter": "url",
     "referral": ""
- },
+  },
   {
-   "name": "Thamarai Selvam",
-   "imageurl": "",
-   "about": "Hello, I'm front-end developer",
-   "college": "KG College of arts and science",
-   "facebook": "",
-   "github": "https://github.com/thamaraiselvamv",
-   "twitter": "https://twitter.com/Thamara52653108",
-   "referral": ""
-}
+    "name": "Thamarai Selvam",
+    "imageurl": "",
+    "about": "Hello, I'm front-end developer",
+    "college": "KG College of arts and science",
+    "facebook": "",
+    "github": "https://github.com/thamaraiselvamv",
+    "twitter": "https://twitter.com/Thamara52653108",
+    "referral": ""
+  }
 ]
