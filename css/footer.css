@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 :root {
   --background: #24262b;
-  --boldtext: #00CF90;
+  --boldtext: #00cf90;
   --iconbg: #ffffff;
   --h4font: 18px;
 }
@@ -16,14 +16,13 @@ body {
   box-sizing: border-box;
 }
 .container {
-  
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  
 }
 #footer {
-  /* background: #091616; */
+  border-radius: 6%;
+  background-color: #0916169e;
 }
 .row {
   display: flex;
@@ -114,10 +113,10 @@ footer {
 	text-align: center;
 } */
 #footer .copyright {
-  margin-top: 40px; 
-  color: #bbbbbb; 
-  font-size: 1.2rem; 
-  text-align: center; 
+  margin-top: 40px;
+  color: #bbbbbb;
+  font-size: 1.2rem;
+  text-align: center;
 }
 
 #footer img {
@@ -128,10 +127,9 @@ footer {
   width: 50%;
 }
 
-
 /*responsive*/
 @media (max-width: 767px) {
-  .container{
+  .container {
     flex-direction: column;
   }
   .footer-col {
@@ -144,10 +142,8 @@ footer {
   }
   .logo p {
     padding-left: 40px;
-}
-.logo h5{
-  padding-left: 20px;
-}
-  
-  
+  }
+  .logo h5 {
+    padding-left: 20px;
+  }
 }
