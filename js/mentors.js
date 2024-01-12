@@ -50,4 +50,10 @@ function generateMentorCards(mentorsData) {
   `;
     mentorSection.appendChild(card);
   }
+  const mentorCards = document.querySelectorAll('.mentorcard');
+    mentorCards.forEach((card, index) => {
+        // Set a staggered delay, e.g., 0s, 0.2s, 0.4s, etc.
+        const delay = index * 1; // Adjust this value to control the delay interval
+        card.style.animationDelay = `${delay}s`;
+    });
 }

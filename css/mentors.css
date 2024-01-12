@@ -53,6 +53,19 @@
   height: 19rem;
   padding: 4px 10px;
   border-radius: 10px;
+  animation-name: fadeInUp;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 .mentorcard:hover {
   box-shadow: 0px 40px 56px rgba(8, 157, 60, 0.1);
