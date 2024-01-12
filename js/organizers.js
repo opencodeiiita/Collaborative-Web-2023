@@ -1,13 +1,13 @@
-showAll = false;
+let showAll = false;
 
 const showAllButton = document.getElementById("organizers-show-more");
-document.addEventListener("DOMContentLoaded", populateOrganizers);
-
 showAllButton.addEventListener("click", () => {
   showAll = true;
   showAllButton.classList.add("no-display");
   populateOrganizers();
 });
+
+document.addEventListener("DOMContentLoaded", populateOrganizers);
 
 function populateOrganizers() {
   // Check if the screen width is more than 900px
@@ -40,10 +40,21 @@ function populateOrganizers() {
             <div class="github">
                 <a href="${organizer.github}" target="_blank"><i class="fab fa-github"></i></a>
             </div>
-             
           `;
 
         container.appendChild(card);
+      }
+
+      if (!showAll && numLength > 6) {
+        const showMoreButton = document.createElement("button");
+        showMoreButton.textContent = "Show More";
+        showMoreButton.addEventListener("click", () => {
+          showAll = true;
+          showMoreButton.style.display = "none";
+          populateOrganizers();
+        });
+
+        container.appendChild(showMoreButton);
       }
     })
     .catch((error) => console.error("Error fetching data:", error));
